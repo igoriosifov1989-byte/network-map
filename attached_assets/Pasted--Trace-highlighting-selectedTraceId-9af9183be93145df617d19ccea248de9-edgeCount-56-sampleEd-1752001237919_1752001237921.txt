@@ -1,0 +1,14 @@
+🎯 Trace highlighting: {selectedTraceId: '9af9183be93145df617d19ccea248de9', edgeCount: 56, sampleEdges: Array(3), sceneObjectKeys: Array(10)}
+Diagram3D.tsx:2263 🔍 Found cylinder during traverse: {nodeId: undefined, userData: {…}, hasUserData: true, isEndpoint: undefined, userDataKeys: Array(1), …}
+Diagram3D.tsx:2283 🔍 Checking node match: {nodeId: undefined, edgeSource: 'gateway-main_proxy_request', edgeTarget: 'gateway-proxy_proxy_request', isNodeMatch: false, traceIds: Array(1), …}
+Diagram3D.tsx:2283 🔍 Checking node match: {nodeId: undefined, edgeSource: 'gateway-proxy_proxy_request', edgeTarget: 'asset-optimizer_search_content', isNodeMatch: false, traceIds: Array(1), …}
+Diagram3D.tsx:2283 🔍 Checking node match: {nodeId: undefined, edgeSource: 'asset-optimizer_search_content', edgeTarget: 'config-service_create_backup', isNodeMatch: false, traceIds: Array(1), …}
+Diagram3D.tsx:2283 🔍 Checking node match: {nodeId: undefined, edgeSource: 'config-service_create_backup', edgeTarget: 'fulfillment-api_fulfill_order', isNodeMatch: false, traceIds: Array(1), …}
+Diagram3D.tsx:2315 🔍 Cylinder highlight: {nodeId: undefined, isRelatedToTrace: false, selectedTraceId: '9af9183be93145df617d19ccea248de9', matchingEdges: Array(0)}
+Diagram3D.tsx:2263 🔍 Found cylinder during traverse: {nodeId: undefined, userData: {…}, hasUserData: true, isEndpoint: undefined, userDataKeys: Array(1), …}
+Diagram3D.tsx:2283 🔍 Checking node match: {nodeId: undefined, edgeSource: 'gateway-main_proxy_request', edgeTarget: 'gateway-proxy_proxy_request', isNodeMatch: false, traceIds: Array(1), …}
+Diagram3D.tsx:2283 🔍 Checking node match: {nodeId: undefined, edgeSource: 'gateway-proxy_proxy_request', edgeTarget: 'asset-optimizer_search_content', isNodeMatch: false, traceIds: Array(1), …}
+Diagram3D.tsx:2283 🔍 Checking node match: {nodeId: undefined, edgeSource: 'asset-optimizer_search_content', edgeTarget: 'config-service_create_backup', isNodeMatch: false, traceIds: Array(1), …}
+Diagram3D.tsx:2283 🔍 Checking node match: {nodeId: undefined, edgeSource: 'config-service_create_backup', edgeTarget: 'fulfillment-api_fulfill_order', isNodeMatch: false, traceIds: Array(1), …}
+Diagram3D.tsx:2315 🔍 Cylinder highlight: {nodeId: undefined, isRelatedToTrace: false, selectedTraceId: '9af9183be93145df617d19ccea248de9', matchingEdges: Array(0)}
+Diagram3D.tsx:2515 🔥 Highlighting trace: 9af9183be93145df617d19ccea248de9 {cylinderCount: 118, arrowCount: 112}

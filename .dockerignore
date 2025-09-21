@@ -1,0 +1,71 @@
+# Node modules
+node_modules
+npm-debug.log*
+
+# Development files
+.git
+.gitignore
+README.md
+.env.local
+.env.development
+.env.test
+
+# Build artifacts
+dist/
+.vite/
+.temp/
+
+# IDE files
+.vscode
+.idea
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Test files
+coverage/
+test-results/
+playwright-report/
+
+# Kubernetes files
+k8s/
+
+# Documentation
+docs/
+*.md
+
+# Development tools
+Makefile
+docker-compose.yml
+
+# Logs
+logs/
+*.log
+
+# Cache
+.cache/
+.parcel-cache/
+
+# Temporary files
+tmp/
+temp/
+
+# Replit specific
+.replit
+replit.nix
+
+# Test data
+*.csv
+*.xlsx
+test-*.csv
+clean-test.csv
+debug-test.csv
+fresh-test.csv
+test-correct.csv
+test-segmentation.csv
+
+# Attached assets
+attached_assets/

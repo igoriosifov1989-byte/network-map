@@ -1,0 +1,28 @@
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+
+metadata:
+  name: diagram-generator-local
+
+bases:
+- ../../base
+
+patchesStrategicMerge:
+- app-patch.yaml
+- postgres-patch.yaml
+
+namePrefix: local-
+
+commonLabels:
+  environment: local
+  
+images:
+- name: diagram-generator
+  newName: localhost:5000/diagram-generator
+  newTag: latest
+
+replicas:
+- name: diagram-generator-app
+  count: 1
+- name: postgres-deployment
+  count: 1

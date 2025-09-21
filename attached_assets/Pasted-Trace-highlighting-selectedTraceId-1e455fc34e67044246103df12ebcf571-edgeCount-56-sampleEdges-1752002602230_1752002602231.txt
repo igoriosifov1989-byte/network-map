@@ -1,0 +1,128 @@
+Trace highlighting: {selectedTraceId: '1e455fc34e67044246103df12ebcf571', edgeCount: 56, sampleEdges: Array(3), sceneObjectKeys: Array(10)}
+Diagram3D.tsx:2282 🔧 DEBUG: Combined traverse - rebuilding userData AND highlighting
+Diagram3D.tsx:2300 🔧 DEBUG rebuild check: {needsRebuild: false, hasUserData: true, nodeId: 'gateway-main_authenticate', nodeIdType: 'string', position: {…}}
+Diagram3D.tsx:2394 🔍 Found cylinder during traverse: {objectType: 'Mesh', nodeId: 'gateway-main_authenticate', actualNodeId: 'gateway-main_authenticate', nodeIdIsUndefined: false, hasUserData: true, …}
+Diagram3D.tsx:2407 🧪 Testing userData assignment on this object...
+Diagram3D.tsx:2410 After test assignment: {testField: 'test-value-123', userDataKeys: Array(7), userDataStringified: '{"nodeId":"gateway-main_authenticate","isNode":tru…inalColor":16711680,"testField":"test-value-123"}'}
+Diagram3D.tsx:2430 🔍 Checking node match: {nodeId: 'gateway-main_authenticate', edgeSource: 'gateway-metrics_route_request', edgeTarget: 'sms-service_render_template', isNodeMatch: false, traceIds: Array(1), …}
+Diagram3D.tsx:2430 🔍 Checking node match: {nodeId: 'gateway-main_authenticate', edgeSource: 'sms-service_render_template', edgeTarget: 'report-generator_serve_dashboard', isNodeMatch: false, traceIds: Array(1), …}
+Diagram3D.tsx:2462 🔍 Cylinder highlight: {nodeId: 'gateway-main_authenticate', isRelatedToTrace: false, selectedTraceId: '1e455fc34e67044246103df12ebcf571', matchingEdges: Array(0)}
+Diagram3D.tsx:2300 🔧 DEBUG rebuild check: {needsRebuild: true, hasUserData: true, nodeId: undefined, nodeIdType: 'undefined', position: {…}}
+Diagram3D.tsx:2315 🔧 Reverse lookup for cylinder: {objectUuid: 'c2ee2ab3-19ce-44ba-b93b-21d46cc6b358', endpointKey: undefined, cacheSize: 155, cacheKeys: Array(5)}
+Diagram3D.tsx:2343 🔧 Fallback position match: {objectPos: {…}, nodePos: {…}, nodeId: 'gateway-main_authenticate', positionMatch: false}
+Diagram3D.tsx:2343 🔧 Fallback position match: {objectPos: {…}, nodePos: {…}, nodeId: 'gateway-proxy_proxy_request', positionMatch: false}
+Diagram3D.tsx:2343 🔧 Fallback position match: {objectPos: {…}, nodePos: {…}, nodeId: 'media-storage_manage_cdn', positionMatch: false}
+Diagram3D.tsx:2343 🔧 Fallback position match: {objectPos: {…}, nodePos: {…}, nodeId: 'notification-core_send_sms', positionMatch: false}
+Diagram3D.tsx:2343 🔧 Fallback position match: {objectPos: {…}, nodePos: {…}, nodeId: 'session-mgr_update_profile', positionMatch: false}
+Diagram3D.tsx:2343 🔧 Fallback position match: {objectPos: {…}, nodePos: {…}, nodeId: 'gateway-metrics_route_request', positionMatch: false}
+Diagram3D.tsx:2343 🔧 Fallback position match: {objectPos: {…}, nodePos: {…}, nodeId: 'sms-service_render_template', positionMatch: false}
+Diagram3D.tsx:2343 🔧 Fallback position match: {objectPos: {…}, nodePos: {…}, nodeId: 'report-generator_serve_dashboard', positionMatch: false}
+Diagram3D.tsx:2343 🔧 Fallback position match: {objectPos: {…}, nodePos: {…}, nodeId: 'gateway-auth_cache_lookup', positionMatch: false}
+Diagram3D.tsx:2343 🔧 Fallback position match: {objectPos: {…}, nodePos: {…}, nodeId: 'content-api_store_media', positionMatch: false}
+Diagram3D.tsx:2343 🔧 Fallback position match: {objectPos: {…}, nodePos: {…}, nodeId: 'fulfillment-api_analyze_orders', positionMatch: false}
+Diagram3D.tsx:2343 🔧 Fallback position match: {objectPos: {…}, nodePos: {…}, nodeId: 'sms-service_format_message', positionMatch: false}
+Diagram3D.tsx:2343 🔧 Fallback position match: {objectPos: {…}, nodePos: {…}, nodeId: 'gateway-auth_route_request', positionMatch: false}
+Diagram3D.tsx:2343 🔧 Fallback position match: {objectPos: {…}, nodePos: {…}, nodeId: 'log-aggregator_deploy_service', positionMatch: false}
+Diagram3D.tsx:2343 🔧 Fallback position match: {objectPos: {…}, nodePos: {…}, nodeId: 'fraud-detection_refund_payment', positionMatch: false}
+Diagram3D.tsx:2343 🔧 Fallback position match: {objectPos: {…}, nodePos: {…}, nodeId: 'gateway-proxy_authenticate', positionMatch: false}
+Diagram3D.tsx:2343 🔧 Fallback position match: {objectPos: {…}, nodePos: {…}, nodeId: 'stock-tracker_catalog_search', positionMatch: false}
+Diagram3D.tsx:2343 🔧 Fallback position match: {objectPos: {…}, nodePos: {…}, nodeId: 'tax-calculator_calculate_tax', positionMatch: false}
+Diagram3D.tsx:2343 🔧 Fallback position match: {objectPos: {…}, nodePos: {…}, nodeId: 'session-mgr_validate_session', positionMatch: false}
+Diagram3D.tsx:2343 🔧 Fallback position match: {objectPos: {…}, nodePos: {…}, nodeId: 'gateway-auth_authenticate', positionMatch: false}
+Diagram3D.tsx:2343 🔧 Fallback position match: {objectPos: {…}, nodePos: {…}, nodeId: 'profile-service_manage_session', positionMatch: false}
+Diagram3D.tsx:2343 🔧 Fallback position match: {objectPos: {…}, nodePos: {…}, nodeId: 'payment-gateway_refund_payment', positionMatch: false}
+Diagram3D.tsx:2343 🔧 Fallback position match: {objectPos: {…}, nodePos: {…}, nodeId: 'gateway-main_route_request', positionMatch: false}
+Diagram3D.tsx:2343 🔧 Fallback position match: {objectPos: {…}, nodePos: {…}, nodeId: 'warehouse-mgmt_update_inventory', positionMatch: false}
+Diagram3D.tsx:2343 🔧 Fallback position match: {objectPos: {…}, nodePos: {…}, nodeId: 'gateway-metrics_authenticate', positionMatch: false}
+Diagram3D.tsx:2343 🔧 Fallback position match: {objectPos: {…}, nodePos: {…}, nodeId: 'backup-service_deploy_service', positionMatch: false}
+Diagram3D.tsx:2343 🔧 Fallback position match: {objectPos: {…}, nodePos: {…}, nodeId: 'content-search_purge_cache', positionMatch: false}
+Diagram3D.tsx:2343 🔧 Fallback position match: {objectPos: {…}, nodePos: {…}, nodeId: 'email-service_push_notification', positionMatch: false}
+Diagram3D.tsx:2343 🔧 Fallback position match: {objectPos: {…}, nodePos: {…}, nodeId: 'gateway-main_cache_lookup', positionMatch: false}
+Diagram3D.tsx:2343 🔧 Fallback position match: {objectPos: {…}, nodePos: {…}, nodeId: 'email-service_push_mobile', positionMatch: false}
+Diagram3D.tsx:2343 🔧 Fallback position match: {objectPos: {…}, nodePos: {…}, nodeId: 'threat-detector_handle_incident', positionMatch: false}
+Diagram3D.tsx:2343 🔧 Fallback position match: {objectPos: {…}, nodePos: {…}, nodeId: 'order-analytics_create_order', positionMatch: false}
+Diagram3D.tsx:2343 🔧 Fallback position match: {objectPos: {…}, nodePos: {…}, nodeId: 'shipping-tracker_fulfill_order', positionMatch: false}
+Diagram3D.tsx:2343 🔧 Fallback position match: {objectPos: {…}, nodePos: {…}, nodeId: 'stock-tracker_check_stock', positionMatch: false}
+Diagram3D.tsx:2343 🔧 Fallback position match: {objectPos: {…}, nodePos: {…}, nodeId: 'gateway-auth_metrics_collect', positionMatch: false}
+Diagram3D.tsx:2343 🔧 Fallback position match: {objectPos: {…}, nodePos: {…}, nodeId: 'fraud-detection_detect_fraud', positionMatch: false}
+Diagram3D.tsx:2343 🔧 Fallback position match: {objectPos: {…}, nodePos: {…}, nodeId: 'push-service_send_email', positionMatch: false}
+Diagram3D.tsx:2343 🔧 Fallback position match: {objectPos: {…}, nodePos: {…}, nodeId: 'asset-optimizer_manage_cdn', positionMatch: false}
+Diagram3D.tsx:2343 🔧 Fallback position match: {objectPos: {…}, nodePos: {…}, nodeId: 'gateway-cache_metrics_collect', positionMatch: false}
+Diagram3D.tsx:2343 🔧 Fallback position match: {objectPos: {…}, nodePos: {…}, nodeId: 'audit-logger_handle_incident', positionMatch: false}
+Diagram3D.tsx:2343 🔧 Fallback position match: {objectPos: {…}, nodePos: {…}, nodeId: 'supplier-api_get_product', positionMatch: false}
+Diagram3D.tsx:2343 🔧 Fallback position match: {objectPos: {…}, nodePos: {…}, nodeId: 'user-service_manage_session', positionMatch: false}
+Diagram3D.tsx:2343 🔧 Fallback position match: {objectPos: {…}, nodePos: {…}, nodeId: 'gateway-metrics_metrics_collect', positionMatch: false}
+Diagram3D.tsx:2343 🔧 Fallback position match: {objectPos: {…}, nodePos: {…}, nodeId: 'cdn-manager_store_media', positionMatch: false}
+Diagram3D.tsx:2343 🔧 Fallback position match: {objectPos: {…}, nodePos: {…}, nodeId: 'report-generator_aggregate_data', positionMatch: false}
+Diagram3D.tsx:2343 🔧 Fallback position match: {objectPos: {…}, nodePos: {…}, nodeId: 'compliance-checker_detect_threats', positionMatch: false}
+Diagram3D.tsx:2343 🔧 Fallback position match: {objectPos: {…}, nodePos: {…}, nodeId: 'session-mgr_create_user', positionMatch: false}
+Diagram3D.tsx:2343 🔧 Fallback position match: {objectPos: {…}, nodePos: {…}, nodeId: 'gateway-auth_proxy_request', positionMatch: false}
+Diagram3D.tsx:2343 🔧 Fallback position match: {objectPos: {…}, nodePos: {…}, nodeId: 'content-api_optimize_assets', positionMatch: false}
+Diagram3D.tsx:2343 🔧 Fallback position match: {objectPos: {…}, nodePos: {…}, nodeId: 'gateway-proxy_cache_lookup', positionMatch: false}
+Diagram3D.tsx:2343 🔧 Fallback position match: {objectPos: {…}, nodePos: {…}, nodeId: 'profile-service_create_user', positionMatch: false}
+Diagram3D.tsx:2343 🔧 Fallback position match: {objectPos: {…}, nodePos: {…}, nodeId: 'stock-tracker_sync_suppliers', positionMatch: false}
+Diagram3D.tsx:2343 🔧 Fallback position match: {objectPos: {…}, nodePos: {…}, nodeId: 'gateway-main_proxy_request', positionMatch: false}
+Diagram3D.tsx:2343 🔧 Fallback position match: {objectPos: {…}, nodePos: {…}, nodeId: 'asset-optimizer_search_content', positionMatch: false}
+Diagram3D.tsx:2343 🔧 Fallback position match: {objectPos: {…}, nodePos: {…}, nodeId: 'config-service_create_backup', positionMatch: false}
+Diagram3D.tsx:2343 🔧 Fallback position match: {objectPos: {…}, nodePos: {…}, nodeId: 'fulfillment-api_fulfill_order', positionMatch: false}
+Diagram3D.tsx:2380 🔧 NO MATCH found for cylinder: {endpointKey: undefined, objectPos: {…}, availableNodeCount: 56, sampleNodeIds: Array(3)}
+Diagram3D.tsx:2430 🔍 Checking node match: {nodeId: undefined, edgeSource: 'gateway-metrics_route_request', edgeTarget: 'sms-service_render_template', isNodeMatch: false, traceIds: Array(1), …}
+Diagram3D.tsx:2430 🔍 Checking node match: {nodeId: undefined, edgeSource: 'sms-service_render_template', edgeTarget: 'report-generator_serve_dashboard', isNodeMatch: false, traceIds: Array(1), …}
+Diagram3D.tsx:2462 🔍 Cylinder highlight: {nodeId: undefined, isRelatedToTrace: false, selectedTraceId: '1e455fc34e67044246103df12ebcf571', matchingEdges: Array(0)}
+Diagram3D.tsx:2380 🔧 NO MATCH found for cylinder: {endpointKey: undefined, objectPos: {…}, availableNodeCount: 56, sampleNodeIds: Array(3)}
+Diagram3D.tsx:2380 🔧 NO MATCH found for cylinder: {endpointKey: undefined, objectPos: {…}, availableNodeCount: 56, sampleNodeIds: Array(3)}
+Diagram3D.tsx:2380 🔧 NO MATCH found for cylinder: {endpointKey: undefined, objectPos: {…}, availableNodeCount: 56, sampleNodeIds: Array(3)}
+Diagram3D.tsx:2380 🔧 NO MATCH found for cylinder: {endpointKey: undefined, objectPos: {…}, availableNodeCount: 56, sampleNodeIds: Array(3)}
+Diagram3D.tsx:2380 🔧 NO MATCH found for cylinder: {endpointKey: undefined, objectPos: {…}, availableNodeCount: 56, sampleNodeIds: Array(3)}
+Diagram3D.tsx:2380 🔧 NO MATCH found for cylinder: {endpointKey: undefined, objectPos: {…}, availableNodeCount: 56, sampleNodeIds: Array(3)}
+Diagram3D.tsx:2380 🔧 NO MATCH found for cylinder: {endpointKey: undefined, objectPos: {…}, availableNodeCount: 56, sampleNodeIds: Array(3)}
+Diagram3D.tsx:2380 🔧 NO MATCH found for cylinder: {endpointKey: undefined, objectPos: {…}, availableNodeCount: 56, sampleNodeIds: Array(3)}
+Diagram3D.tsx:2380 🔧 NO MATCH found for cylinder: {endpointKey: undefined, objectPos: {…}, availableNodeCount: 56, sampleNodeIds: Array(3)}
+Diagram3D.tsx:2380 🔧 NO MATCH found for cylinder: {endpointKey: undefined, objectPos: {…}, availableNodeCount: 56, sampleNodeIds: Array(3)}
+Diagram3D.tsx:2380 🔧 NO MATCH found for cylinder: {endpointKey: undefined, objectPos: {…}, availableNodeCount: 56, sampleNodeIds: Array(3)}
+Diagram3D.tsx:2380 🔧 NO MATCH found for cylinder: {endpointKey: undefined, objectPos: {…}, availableNodeCount: 56, sampleNodeIds: Array(3)}
+Diagram3D.tsx:2380 🔧 NO MATCH found for cylinder: {endpointKey: undefined, objectPos: {…}, availableNodeCount: 56, sampleNodeIds: Array(3)}
+Diagram3D.tsx:2380 🔧 NO MATCH found for cylinder: {endpointKey: undefined, objectPos: {…}, availableNodeCount: 56, sampleNodeIds: Array(3)}
+Diagram3D.tsx:2380 🔧 NO MATCH found for cylinder: {endpointKey: undefined, objectPos: {…}, availableNodeCount: 56, sampleNodeIds: Array(3)}
+Diagram3D.tsx:2380 🔧 NO MATCH found for cylinder: {endpointKey: undefined, objectPos: {…}, availableNodeCount: 56, sampleNodeIds: Array(3)}
+Diagram3D.tsx:2380 🔧 NO MATCH found for cylinder: {endpointKey: undefined, objectPos: {…}, availableNodeCount: 56, sampleNodeIds: Array(3)}
+Diagram3D.tsx:2380 🔧 NO MATCH found for cylinder: {endpointKey: undefined, objectPos: {…}, availableNodeCount: 56, sampleNodeIds: Array(3)}
+Diagram3D.tsx:2380 🔧 NO MATCH found for cylinder: {endpointKey: undefined, objectPos: {…}, availableNodeCount: 56, sampleNodeIds: Array(3)}
+Diagram3D.tsx:2380 🔧 NO MATCH found for cylinder: {endpointKey: undefined, objectPos: {…}, availableNodeCount: 56, sampleNodeIds: Array(3)}
+Diagram3D.tsx:2380 🔧 NO MATCH found for cylinder: {endpointKey: undefined, objectPos: {…}, availableNodeCount: 56, sampleNodeIds: Array(3)}
+Diagram3D.tsx:2380 🔧 NO MATCH found for cylinder: {endpointKey: undefined, objectPos: {…}, availableNodeCount: 56, sampleNodeIds: Array(3)}
+Diagram3D.tsx:2380 🔧 NO MATCH found for cylinder: {endpointKey: undefined, objectPos: {…}, availableNodeCount: 56, sampleNodeIds: Array(3)}
+Diagram3D.tsx:2380 🔧 NO MATCH found for cylinder: {endpointKey: undefined, objectPos: {…}, availableNodeCount: 56, sampleNodeIds: Array(3)}
+Diagram3D.tsx:2380 🔧 NO MATCH found for cylinder: {endpointKey: undefined, objectPos: {…}, availableNodeCount: 56, sampleNodeIds: Array(3)}
+Diagram3D.tsx:2380 🔧 NO MATCH found for cylinder: {endpointKey: undefined, objectPos: {…}, availableNodeCount: 56, sampleNodeIds: Array(3)}
+Diagram3D.tsx:2380 🔧 NO MATCH found for cylinder: {endpointKey: undefined, objectPos: {…}, availableNodeCount: 56, sampleNodeIds: Array(3)}
+Diagram3D.tsx:2380 🔧 NO MATCH found for cylinder: {endpointKey: undefined, objectPos: {…}, availableNodeCount: 56, sampleNodeIds: Array(3)}
+Diagram3D.tsx:2380 🔧 NO MATCH found for cylinder: {endpointKey: undefined, objectPos: {…}, availableNodeCount: 56, sampleNodeIds: Array(3)}
+Diagram3D.tsx:2380 🔧 NO MATCH found for cylinder: {endpointKey: undefined, objectPos: {…}, availableNodeCount: 56, sampleNodeIds: Array(3)}
+Diagram3D.tsx:2380 🔧 NO MATCH found for cylinder: {endpointKey: undefined, objectPos: {…}, availableNodeCount: 56, sampleNodeIds: Array(3)}
+Diagram3D.tsx:2380 🔧 NO MATCH found for cylinder: {endpointKey: undefined, objectPos: {…}, availableNodeCount: 56, sampleNodeIds: Array(3)}
+Diagram3D.tsx:2380 🔧 NO MATCH found for cylinder: {endpointKey: undefined, objectPos: {…}, availableNodeCount: 56, sampleNodeIds: Array(3)}
+Diagram3D.tsx:2380 🔧 NO MATCH found for cylinder: {endpointKey: undefined, objectPos: {…}, availableNodeCount: 56, sampleNodeIds: Array(3)}
+Diagram3D.tsx:2380 🔧 NO MATCH found for cylinder: {endpointKey: undefined, objectPos: {…}, availableNodeCount: 56, sampleNodeIds: Array(3)}
+Diagram3D.tsx:2380 🔧 NO MATCH found for cylinder: {endpointKey: undefined, objectPos: {…}, availableNodeCount: 56, sampleNodeIds: Array(3)}
+Diagram3D.tsx:2380 🔧 NO MATCH found for cylinder: {endpointKey: undefined, objectPos: {…}, availableNodeCount: 56, sampleNodeIds: Array(3)}
+Diagram3D.tsx:2380 🔧 NO MATCH found for cylinder: {endpointKey: undefined, objectPos: {…}, availableNodeCount: 56, sampleNodeIds: Array(3)}
+Diagram3D.tsx:2380 🔧 NO MATCH found for cylinder: {endpointKey: undefined, objectPos: {…}, availableNodeCount: 56, sampleNodeIds: Array(3)}
+Diagram3D.tsx:2380 🔧 NO MATCH found for cylinder: {endpointKey: undefined, objectPos: {…}, availableNodeCount: 56, sampleNodeIds: Array(3)}
+Diagram3D.tsx:2380 🔧 NO MATCH found for cylinder: {endpointKey: undefined, objectPos: {…}, availableNodeCount: 56, sampleNodeIds: Array(3)}
+Diagram3D.tsx:2380 🔧 NO MATCH found for cylinder: {endpointKey: undefined, objectPos: {…}, availableNodeCount: 56, sampleNodeIds: Array(3)}
+Diagram3D.tsx:2380 🔧 NO MATCH found for cylinder: {endpointKey: undefined, objectPos: {…}, availableNodeCount: 56, sampleNodeIds: Array(3)}
+Diagram3D.tsx:2380 🔧 NO MATCH found for cylinder: {endpointKey: undefined, objectPos: {…}, availableNodeCount: 56, sampleNodeIds: Array(3)}
+Diagram3D.tsx:2380 🔧 NO MATCH found for cylinder: {endpointKey: undefined, objectPos: {…}, availableNodeCount: 56, sampleNodeIds: Array(3)}
+Diagram3D.tsx:2380 🔧 NO MATCH found for cylinder: {endpointKey: undefined, objectPos: {…}, availableNodeCount: 56, sampleNodeIds: Array(3)}
+Diagram3D.tsx:2380 🔧 NO MATCH found for cylinder: {endpointKey: undefined, objectPos: {…}, availableNodeCount: 56, sampleNodeIds: Array(3)}
+Diagram3D.tsx:2380 🔧 NO MATCH found for cylinder: {endpointKey: undefined, objectPos: {…}, availableNodeCount: 56, sampleNodeIds: Array(3)}
+Diagram3D.tsx:2380 🔧 NO MATCH found for cylinder: {endpointKey: undefined, objectPos: {…}, availableNodeCount: 56, sampleNodeIds: Array(3)}
+Diagram3D.tsx:2380 🔧 NO MATCH found for cylinder: {endpointKey: undefined, objectPos: {…}, availableNodeCount: 56, sampleNodeIds: Array(3)}
+Diagram3D.tsx:2380 🔧 NO MATCH found for cylinder: {endpointKey: undefined, objectPos: {…}, availableNodeCount: 56, sampleNodeIds: Array(3)}
+Diagram3D.tsx:2380 🔧 NO MATCH found for cylinder: {endpointKey: undefined, objectPos: {…}, availableNodeCount: 56, sampleNodeIds: Array(3)}
+Diagram3D.tsx:2380 🔧 NO MATCH found for cylinder: {endpointKey: undefined, objectPos: {…}, availableNodeCount: 56, sampleNodeIds: Array(3)}
+Diagram3D.tsx:2380 🔧 NO MATCH found for cylinder: {endpointKey: undefined, objectPos: {…}, availableNodeCount: 56, sampleNodeIds: Array(3)}
+Diagram3D.tsx:2380 🔧 NO MATCH found for cylinder: {endpointKey: undefined, objectPos: {…}, availableNodeCount: 56, sampleNodeIds: Array(3)}
+Diagram3D.tsx:2380 🔧 NO MATCH found for cylinder: {endpointKey: undefined, objectPos: {…}, availableNodeCount: 56, sampleNodeIds: Array(3)}
+Diagram3D.tsx:2380 🔧 NO MATCH found for cylinder: {endpointKey: undefined, objectPos: {…}, availableNodeCount: 56, sampleNodeIds: Array(3)}

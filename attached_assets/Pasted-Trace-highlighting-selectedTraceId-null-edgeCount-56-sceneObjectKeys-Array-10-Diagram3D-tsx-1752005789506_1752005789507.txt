@@ -1,0 +1,21 @@
+Trace highlighting: {selectedTraceId: null, edgeCount: 56, sceneObjectKeys: Array(10)}
+Diagram3D.tsx:2334 🎯 Found 0 edges with selected trace null:
+Diagram3D.tsx:2351 🎯 Required nodes for highlighting: []
+Diagram3D.tsx:2372 🔧 DEBUG: Combined traverse - rebuilding userData AND highlighting
+Diagram3D.tsx:2438 🔧 SKIPPING cylinder without nodeId: {hasUserData: true, userDataKeys: Array(0), position: {…}}
+Diagram3D.tsx:2438 🔧 SKIPPING cylinder without nodeId: {hasUserData: true, userDataKeys: Array(0), position: {…}}
+Diagram3D.tsx:2395 🎯 TRACKED ENDPOINT - Found during highlight: {nodeId: 'gateway-metrics_route_request', selectedTraceId: null, fullUserData: '{"nodeId":"gateway-metrics_route_request","isNode"…","tenant":"api-gateway","originalColor":6333946}', position: {…}}
+Diagram3D.tsx:2055 🎬 Animation running, frame: 60
+Diagram3D.tsx:2326 🎯 Trace highlighting: {selectedTraceId: '1e455fc34e67044246103df12ebcf571', edgeCount: 56, sceneObjectKeys: Array(10)}
+Diagram3D.tsx:2334 🎯 Found 2 edges with selected trace 1e455fc34e67044246103df12ebcf571:
+Diagram3D.tsx:2336   ↳ Matching edge 0: {source: 'gateway-metrics_route_request', target: 'sms-service_render_template', traceId: '1e455fc34e67044246103df12ebcf571'}
+Diagram3D.tsx:2336   ↳ Matching edge 1: {source: 'sms-service_render_template', target: 'report-generator_serve_dashboard', traceId: '1e455fc34e67044246103df12ebcf571'}
+Diagram3D.tsx:2351 🎯 Required nodes for highlighting: (3) ['gateway-metrics_route_request', 'sms-service_render_template', 'report-generator_serve_dashboard']
+Diagram3D.tsx:2357   📍 Node gateway-metrics_route_request: {x3d: -277.665631459995, y3d: -60, z3d: -456.42738422007744, service: 'gateway-metrics', tenant: 'api-gateway'}
+Diagram3D.tsx:2357   📍 Node sms-service_render_template: {x3d: -140, y3d: -30, z3d: 60, service: 'sms-service', tenant: 'notification-system'}
+Diagram3D.tsx:2357   📍 Node report-generator_serve_dashboard: {x3d: -600, y3d: -30, z3d: -400, service: 'report-generator', tenant: 'analytics-platform'}
+Diagram3D.tsx:2372 🔧 DEBUG: Combined traverse - rebuilding userData AND highlighting
+Diagram3D.tsx:2438 🔧 SKIPPING cylinder without nodeId: {hasUserData: true, userDataKeys: Array(0), position: {…}}
+Diagram3D.tsx:2438 🔧 SKIPPING cylinder without nodeId: {hasUserData: true, userDataKeys: Array(0), position: {…}}
+Diagram3D.tsx:2395 🎯 TRACKED ENDPOINT - Found during highlight: {nodeId: 'gateway-metrics_route_request', selectedTraceId: '1e455fc34e67044246103df12ebcf571', fullUserData: '{"nodeId":"gateway-metrics_route_request","isNode"…","tenant":"api-gateway","originalColor":6333946}', position: {…}}
+Diagram3D.tsx:2753 🔥 Highlighting trace: 1e455fc34e67044246103df12ebcf571 {cylinderCount: 118, arrowCount: 112}

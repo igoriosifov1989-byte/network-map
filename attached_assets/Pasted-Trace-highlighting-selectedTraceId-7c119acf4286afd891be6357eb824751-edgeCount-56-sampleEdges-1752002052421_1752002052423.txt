@@ -1,0 +1,19 @@
+Trace highlighting: {selectedTraceId: '7c119acf4286afd891be6357eb824751', edgeCount: 56, sampleEdges: Array(3), sceneObjectKeys: Array(10)}
+Diagram3D.tsx:2278 🔧 DEBUG: Rebuilding userData for all cylinders in trace highlighting useEffect
+Diagram3D.tsx:2294 🔧 Rebuilding userData for cylinder: {nodeId: 'gateway-main_authenticate', objectPosition: {…}, nodePosition: {…}, beforeUserData: {…}, beforeUserDataKeys: Array(6)}
+Diagram3D.tsx:2312 🔧 After rebuilding userData: {newUserData: {…}, newUserDataKeys: Array(6)}
+Diagram3D.tsx:2294 🔧 Rebuilding userData for cylinder: {nodeId: 'gateway-main_authenticate', objectPosition: {…}, nodePosition: {…}, beforeUserData: {…}, beforeUserDataKeys: Array(6)}
+Diagram3D.tsx:2312 🔧 After rebuilding userData: {newUserData: {…}, newUserDataKeys: Array(6)}
+Diagram3D.tsx:2320 🔧 DEBUG: Finished rebuilding userData for 118 cylinders
+Diagram3D.tsx:2340 🔍 Found cylinder during traverse: {objectType: 'Mesh', nodeId: undefined, actualNodeId: undefined, hasUserData: true, isEndpoint: undefined, …}
+Diagram3D.tsx:2351 🧪 Testing userData assignment on this object...
+Diagram3D.tsx:2354 After test assignment: {testField: 'test-value-123', userDataKeys: Array(2), userDataStringified: '{"originalColor":16711680,"testField":"test-value-123"}'}
+Diagram3D.tsx:2374 🔍 Checking node match: {nodeId: undefined, edgeSource: 'gateway-auth_route_request', edgeTarget: 'gateway-proxy_proxy_request', isNodeMatch: false, traceIds: Array(1), …}
+Diagram3D.tsx:2374 🔍 Checking node match: {nodeId: undefined, edgeSource: 'gateway-proxy_proxy_request', edgeTarget: 'log-aggregator_deploy_service', isNodeMatch: false, traceIds: Array(1), …}
+Diagram3D.tsx:2374 🔍 Checking node match: {nodeId: undefined, edgeSource: 'log-aggregator_deploy_service', edgeTarget: 'fraud-detection_refund_payment', isNodeMatch: false, traceIds: Array(1), …}
+Diagram3D.tsx:2406 🔍 Cylinder highlight: {nodeId: undefined, isRelatedToTrace: false, selectedTraceId: '7c119acf4286afd891be6357eb824751', matchingEdges: Array(0)}
+Diagram3D.tsx:2374 🔍 Checking node match: {nodeId: undefined, edgeSource: 'gateway-auth_route_request', edgeTarget: 'gateway-proxy_proxy_request', isNodeMatch: false, traceIds: Array(1), …}
+Diagram3D.tsx:2374 🔍 Checking node match: {nodeId: undefined, edgeSource: 'gateway-proxy_proxy_request', edgeTarget: 'log-aggregator_deploy_service', isNodeMatch: false, traceIds: Array(1), …}
+Diagram3D.tsx:2374 🔍 Checking node match: {nodeId: undefined, edgeSource: 'log-aggregator_deploy_service', edgeTarget: 'fraud-detection_refund_payment', isNodeMatch: false, traceIds: Array(1), …}
+Diagram3D.tsx:2406 🔍 Cylinder highlight: {nodeId: undefined, isRelatedToTrace: false, selectedTraceId: '7c119acf4286afd891be6357eb824751', matchingEdges: Array(0)}
+Diagram3D.tsx:2606 🔥 Highlighting trace: 7c119acf4286afd891be6357eb824751 {cylinderCount: 118, arrowCount: 112}

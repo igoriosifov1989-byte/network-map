@@ -1,0 +1,3 @@
+source,target,label
+gateway-service1,api-service1,auth
+gateway-service1,platform-service1,police-extend

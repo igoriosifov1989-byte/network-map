@@ -1,0 +1,12 @@
+🎯 Trace highlighting: {selectedTraceId: '8dc85815918b063948193b79535d8652', edgeCount: 56, sampleEdges: Array(3), sceneObjectKeys: Array(10)}
+Diagram3D.tsx:2249 🔍 Found cylinder during traverse: {nodeId: undefined, userData: {…}, hasUserData: true, isEndpoint: undefined, userDataKeys: Array(0)}
+Diagram3D.tsx:2268 🔍 Checking node match: {nodeId: undefined, edgeSource: 'gateway-proxy_authenticate', edgeTarget: 'shipping-tracker_fulfill_order', isNodeMatch: false, traceIds: Array(1), …}
+Diagram3D.tsx:2268 🔍 Checking node match: {nodeId: undefined, edgeSource: 'shipping-tracker_fulfill_order', edgeTarget: 'stock-tracker_check_stock', isNodeMatch: false, traceIds: Array(1), …}
+Diagram3D.tsx:2268 🔍 Checking node match: {nodeId: undefined, edgeSource: 'stock-tracker_check_stock', edgeTarget: 'media-storage_manage_cdn', isNodeMatch: false, traceIds: Array(1), …}
+Diagram3D.tsx:2300 🔍 Cylinder highlight: {nodeId: undefined, isRelatedToTrace: false, selectedTraceId: '8dc85815918b063948193b79535d8652', matchingEdges: Array(0)}
+Diagram3D.tsx:2249 🔍 Found cylinder during traverse: {nodeId: undefined, userData: {…}, hasUserData: true, isEndpoint: undefined, userDataKeys: Array(0)}
+Diagram3D.tsx:2268 🔍 Checking node match: {nodeId: undefined, edgeSource: 'gateway-proxy_authenticate', edgeTarget: 'shipping-tracker_fulfill_order', isNodeMatch: false, traceIds: Array(1), …}
+Diagram3D.tsx:2268 🔍 Checking node match: {nodeId: undefined, edgeSource: 'shipping-tracker_fulfill_order', edgeTarget: 'stock-tracker_check_stock', isNodeMatch: false, traceIds: Array(1), …}
+Diagram3D.tsx:2268 🔍 Checking node match: {nodeId: undefined, edgeSource: 'stock-tracker_check_stock', edgeTarget: 'media-storage_manage_cdn', isNodeMatch: false, traceIds: Array(1), …}
+Diagram3D.tsx:2300 🔍 Cylinder highlight: {nodeId: undefined, isRelatedToTrace: false, selectedTraceId: '8dc85815918b063948193b79535d8652', matchingEdges: Array(0)}
+Diagram3D.tsx:2500 🔥 Highlighting trace: 8dc85815918b063948193b79535d8652 {cylinderCount: 118, arrowCount: 112}

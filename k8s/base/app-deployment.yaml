@@ -1,0 +1,88 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: diagram-generator-app
+  namespace: diagram-generator
+  labels:
+    app.kubernetes.io/name: diagram-generator
+    app.kubernetes.io/component: app
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: diagram-generator-app
+  template:
+    metadata:
+      labels:
+        app: diagram-generator-app
+    spec:
+      containers:
+      - name: app
+        image: diagram-generator:latest
+        ports:
+        - containerPort: 5000
+        envFrom:
+        - configMapRef:
+            name: diagram-generator-config
+        - secretRef:
+            name: diagram-generator-secret
+        livenessProbe:
+          httpGet:
+            path: /api/health
+            port: 5000
+          initialDelaySeconds: 30
+          periodSeconds: 10
+        readinessProbe:
+          httpGet:
+            path: /api/health
+            port: 5000
+          initialDelaySeconds: 5
+          periodSeconds: 5
+        resources:
+          requests:
+            memory: "512Mi"
+            cpu: "250m"
+          limits:
+            memory: "1Gi"
+            cpu: "500m"
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: diagram-generator-service
+  namespace: diagram-generator
+  labels:
+    app.kubernetes.io/name: diagram-generator
+    app.kubernetes.io/component: app
+spec:
+  type: ClusterIP
+  ports:
+  - port: 80
+    targetPort: 5000
+    protocol: TCP
+  selector:
+    app: diagram-generator-app
+---
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: diagram-generator-ingress
+  namespace: diagram-generator
+  labels:
+    app.kubernetes.io/name: diagram-generator
+    app.kubernetes.io/component: ingress
+  annotations:
+    nginx.ingress.kubernetes.io/rewrite-target: /
+spec:
+  ingressClassName: nginx
+  rules:
+  - host: diagram-generator.local
+    http:
+      paths:
+      - path: /
+        pathType: Prefix
+        backend:
+          service:
+            name: diagram-generator-service
+            port:
+              number: 80

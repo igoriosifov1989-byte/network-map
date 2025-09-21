@@ -1,0 +1,5 @@
+source,target,label
+gateway-service1,api-service1,auth
+gateway-service1,platform-service1,police-extend
+api-service1,platform-service2,data-processing
+platform-service1,platform-service3,internal-sync

@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: diagram-generator
+  labels:
+    app.kubernetes.io/name: diagram-generator
+    app.kubernetes.io/component: namespace

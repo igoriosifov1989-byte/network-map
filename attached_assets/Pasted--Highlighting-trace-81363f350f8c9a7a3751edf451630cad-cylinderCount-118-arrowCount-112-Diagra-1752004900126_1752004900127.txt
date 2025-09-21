@@ -1,0 +1,18 @@
+🔥 Highlighting trace: 81363f350f8c9a7a3751edf451630cad {cylinderCount: 118, arrowCount: 112}
+Diagram3D.tsx:2250 🎯 Trace highlighting: {selectedTraceId: '890da03b3d519be5d9dca68980d2f47d', edgeCount: 56, sceneObjectKeys: Array(10)}
+Diagram3D.tsx:2258 🎯 Found 3 edges with selected trace 890da03b3d519be5d9dca68980d2f47d:
+Diagram3D.tsx:2260   ↳ Matching edge 0: {source: 'gateway-proxy_authenticate', target: 'stock-tracker_catalog_search', traceId: '890da03b3d519be5d9dca68980d2f47d'}
+Diagram3D.tsx:2260   ↳ Matching edge 1: {source: 'stock-tracker_catalog_search', target: 'tax-calculator_calculate_tax', traceId: '890da03b3d519be5d9dca68980d2f47d'}
+Diagram3D.tsx:2260   ↳ Matching edge 2: {source: 'tax-calculator_calculate_tax', target: 'session-mgr_validate_session', traceId: '890da03b3d519be5d9dca68980d2f47d'}
+Diagram3D.tsx:2275 🎯 Required nodes for highlighting: (4) ['gateway-proxy_authenticate', 'stock-tracker_catalog_search', 'tax-calculator_calculate_tax', 'session-mgr_validate_session']
+Diagram3D.tsx:2281   📍 Node gateway-proxy_authenticate: {x3d: -170.33436854000507, y3d: 'undefined', z3d: -491.30142556433475, service: 'gateway-proxy', tenant: 'api-gateway'}
+Diagram3D.tsx:2281   📍 Node stock-tracker_catalog_search: {x3d: -660, y3d: -60, z3d: -60, service: 'stock-tracker', tenant: 'inventory-system'}
+Diagram3D.tsx:2281   📍 Node tax-calculator_calculate_tax: {x3d: 540, y3d: 'undefined', z3d: 60, service: 'tax-calculator', tenant: 'payment-system'}
+Diagram3D.tsx:2296 🔧 DEBUG: Combined traverse - rebuilding userData AND highlighting
+Diagram3D.tsx:2322 🔧 Attempting userData restore: {cacheEntry: null, cacheSize: 155, hasData: true, nodeCount: 56}
+Diagram3D.tsx:2362 🔍 Found cylinder during traverse: {objectType: 'Mesh', nodeId: undefined, actualNodeId: undefined, nodeIdIsUndefined: true, hasUserData: true, …}
+Diagram3D.tsx:2375 🧪 Testing userData assignment on this object...
+Diagram3D.tsx:2378 After test assignment: {testField: 'test-value-123', userDataKeys: Array(2), userDataStringified: '{"originalColor":16711680,"testField":"test-value-123"}'}
+Diagram3D.tsx:2401 🔍 Dimming cylinder without nodeId: {nodeId: undefined, selectedTraceId: '890da03b3d519be5d9dca68980d2f47d', hasNodeId: false}
+Diagram3D.tsx:2401 🔍 Dimming cylinder without nodeId: {nodeId: undefined, selectedTraceId: '890da03b3d519be5d9dca68980d2f47d', hasNodeId: false}
+Diagram3D.tsx:2663 🔥 Highlighting trace: 890da03b3d519be5d9dca68980d2f47d {cylinderCount: 118, arrowCount: 112}

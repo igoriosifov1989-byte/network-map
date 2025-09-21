@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: diagram-generator-config
+  namespace: diagram-generator
+  labels:
+    app.kubernetes.io/name: diagram-generator
+    app.kubernetes.io/component: config
+data:
+  NODE_ENV: "production"
+  PGHOST: "postgres-service"
+  PGPORT: "5432"
+  PGDATABASE: "diagram_generator"
+  PGUSER: "postgres"

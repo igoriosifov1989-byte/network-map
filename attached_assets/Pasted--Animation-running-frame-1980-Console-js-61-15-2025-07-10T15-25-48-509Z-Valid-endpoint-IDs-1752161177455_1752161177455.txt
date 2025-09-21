@@ -1,0 +1,162 @@
+
+🎬 Animation running, frame: 1980 Console.js:61:15
+🔧 [2025-07-10T15:25:48.509Z] Valid endpoint IDs: 
+Array(10) [ "gateway-proxy_authenticate", "order-service_create_order", "notification-core_format_message", "identity-provider_verify_identity", "billing-service_calculate_tax", "shipping-tracker_manage_fulfillment", "incident-responder_scan_vulnerabilities", "gateway-metrics_proxy_request", "cdn-manager_purge_cache", "sms-service_render_template" ]
+ ... (total: 59 ) Console.js:61:15
+🔧 [2025-07-10T15:25:48.509Z] Sample node IDs from data: 
+Array(5) [ {…}, {…}, {…}, {…}, {…} ]
+Console.js:61:15
+🔍 Cylinder #1 analysis: 
+Object { nodeId: undefined, hasNodeId: false, isValidEndpoint: undefined, userData: [], position: {…} }
+Console.js:61:15
+🔍 Cylinder #2 analysis: 
+Object { nodeId: undefined, hasNodeId: false, isValidEndpoint: undefined, userData: [], position: {…} }
+Console.js:61:15
+🔍 Cylinder #3 analysis: 
+Object { nodeId: undefined, hasNodeId: false, isValidEndpoint: undefined, userData: [], position: {…} }
+Console.js:61:15
+🔍 Cylinder #4 analysis: 
+Object { nodeId: undefined, hasNodeId: false, isValidEndpoint: undefined, userData: [], position: {…} }
+Console.js:61:15
+🔍 Cylinder #5 analysis: 
+Object { nodeId: undefined, hasNodeId: false, isValidEndpoint: undefined, userData: [], position: {…} }
+Console.js:61:15
+🔍 Found cylinder during traverse: 
+Object { objectType: "Mesh", nodeId: "report-generator_serve_dashboard", actualNodeId: "report-generator_serve_dashboard", nodeIdIsUndefined: false, hasUserData: true, isEndpoint: true, userDataKeys: (6) […], userDataStringified: '{"nodeId":"report-generator_serve_dashboard","isNode":true,"isEndpoint":true,"serviceName":"report-generator","tenant":"analytics-platform","originalColor":6333946}', position: {…} }
+Console.js:61:15
+🧪 Testing userData assignment on this object... Console.js:61:15
+After test assignment: 
+Object { testField: "test-value-123", userDataKeys: (7) […], userDataStringified: '{"nodeId":"report-generator_serve_dashboard","isNode":true,"isEndpoint":true,"serviceName":"report-generator","tenant":"analytics-platform","originalColor":6333946,"testField":"test-value-123"}' }
+Console.js:61:15
+🎯 Processing cylinder #1 for highlighting: 
+Object { nodeId: "report-generator_serve_dashboard", rebuildCount: 1, selectedTraceId: "0e4d10551c66be21abb473cef2c80d81", hasNodeId: true, isInValidIds: true }
+Console.js:61:15
+🔍 Edge analysis: 
+Object { nodeId: "report-generator_serve_dashboard", cylinderCount: 1, rebuildCount: 1, edgeIndex: 0, edgeSource: "gateway-proxy_authenticate", edgeTarget: "order-service_create_order", edgeTraceId: "49dd00eb9544a4d0e5a610188e868a07", traceIds: (1) […], selectedTraceId: "0e4d10551c66be21abb473cef2c80d81", isTraceMatch: false, … }
+Console.js:61:15
+🔍 Edge analysis: 
+Object { nodeId: "report-generator_serve_dashboard", cylinderCount: 1, rebuildCount: 1, edgeIndex: 1, edgeSource: "order-service_create_order", edgeTarget: "notification-core_format_message", edgeTraceId: "49dd00eb9544a4d0e5a610188e868a07", traceIds: (1) […], selectedTraceId: "0e4d10551c66be21abb473cef2c80d81", isTraceMatch: false, … }
+Console.js:61:15
+🔍 Edge analysis: 
+Object { nodeId: "report-generator_serve_dashboard", cylinderCount: 1, rebuildCount: 1, edgeIndex: 2, edgeSource: "notification-core_format_message", edgeTarget: "identity-provider_verify_identity", edgeTraceId: "49dd00eb9544a4d0e5a610188e868a07", traceIds: (1) […], selectedTraceId: "0e4d10551c66be21abb473cef2c80d81", isTraceMatch: false, … }
+Console.js:61:15
+🎨 CYLINDER COLOR PROCESSING #1: 
+Object { nodeId: "report-generator_serve_dashboard", isRelatedToTrace: false, selectedTraceId: "0e4d10551c66be21abb473cef2c80d81", currentColorBefore: 6333946, originalColor: 6333946, materialColor: 6333946 }
+Console.js:61:15
+⬜ DIMMING cylinder: 
+Object { nodeId: "report-generator_serve_dashboard", originalColor: 6333946, newColorHex: 6710886 }
+Console.js:61:15
+🔍 Cylinder highlight: 
+Object { nodeId: "report-generator_serve_dashboard", isRelatedToTrace: false, selectedTraceId: "0e4d10551c66be21abb473cef2c80d81", matchingEdgesCount: 0 }
+Console.js:61:15
+🎯 Processing cylinder #2 for highlighting: 
+Object { nodeId: "report-generator_aggregate_data", rebuildCount: 2, selectedTraceId: "0e4d10551c66be21abb473cef2c80d81", hasNodeId: true, isInValidIds: true }
+Console.js:61:15
+🔍 Edge analysis: 
+Object { nodeId: "report-generator_aggregate_data", cylinderCount: 2, rebuildCount: 2, edgeIndex: 0, edgeSource: "gateway-proxy_authenticate", edgeTarget: "order-service_create_order", edgeTraceId: "49dd00eb9544a4d0e5a610188e868a07", traceIds: (1) […], selectedTraceId: "0e4d10551c66be21abb473cef2c80d81", isTraceMatch: false, … }
+Console.js:61:15
+🔍 Edge analysis: 
+Object { nodeId: "report-generator_aggregate_data", cylinderCount: 2, rebuildCount: 2, edgeIndex: 1, edgeSource: "order-service_create_order", edgeTarget: "notification-core_format_message", edgeTraceId: "49dd00eb9544a4d0e5a610188e868a07", traceIds: (1) […], selectedTraceId: "0e4d10551c66be21abb473cef2c80d81", isTraceMatch: false, … }
+Console.js:61:15
+🔍 Edge analysis: 
+Object { nodeId: "report-generator_aggregate_data", cylinderCount: 2, rebuildCount: 2, edgeIndex: 2, edgeSource: "notification-core_format_message", edgeTarget: "identity-provider_verify_identity", edgeTraceId: "49dd00eb9544a4d0e5a610188e868a07", traceIds: (1) […], selectedTraceId: "0e4d10551c66be21abb473cef2c80d81", isTraceMatch: false, … }
+Console.js:61:15
+🎨 CYLINDER COLOR PROCESSING #2: 
+Object { nodeId: "report-generator_aggregate_data", isRelatedToTrace: false, selectedTraceId: "0e4d10551c66be21abb473cef2c80d81", currentColorBefore: 16281969, originalColor: 16281969, materialColor: 16281969 }
+Console.js:61:15
+⬜ DIMMING cylinder: 
+Object { nodeId: "report-generator_aggregate_data", originalColor: 16281969, newColorHex: 6710886 }
+Console.js:61:15
+🔍 Cylinder highlight: 
+Object { nodeId: "report-generator_aggregate_data", isRelatedToTrace: false, selectedTraceId: "0e4d10551c66be21abb473cef2c80d81", matchingEdgesCount: 0 }
+Console.js:61:15
+🎯 Processing cylinder #3 for highlighting: 
+Object { nodeId: "gateway-auth_authenticate", rebuildCount: 3, selectedTraceId: "0e4d10551c66be21abb473cef2c80d81", hasNodeId: true, isInValidIds: true }
+Console.js:61:15
+🔍 Edge analysis: 
+Object { nodeId: "gateway-auth_authenticate", cylinderCount: 3, rebuildCount: 3, edgeIndex: 0, edgeSource: "gateway-proxy_authenticate", edgeTarget: "order-service_create_order", edgeTraceId: "49dd00eb9544a4d0e5a610188e868a07", traceIds: (1) […], selectedTraceId: "0e4d10551c66be21abb473cef2c80d81", isTraceMatch: false, … }
+Console.js:61:15
+🔍 Edge analysis: 
+Object { nodeId: "gateway-auth_authenticate", cylinderCount: 3, rebuildCount: 3, edgeIndex: 1, edgeSource: "order-service_create_order", edgeTarget: "notification-core_format_message", edgeTraceId: "49dd00eb9544a4d0e5a610188e868a07", traceIds: (1) […], selectedTraceId: "0e4d10551c66be21abb473cef2c80d81", isTraceMatch: false, … }
+Console.js:61:15
+🔍 Edge analysis: 
+Object { nodeId: "gateway-auth_authenticate", cylinderCount: 3, rebuildCount: 3, edgeIndex: 2, edgeSource: "notification-core_format_message", edgeTarget: "identity-provider_verify_identity", edgeTraceId: "49dd00eb9544a4d0e5a610188e868a07", traceIds: (1) […], selectedTraceId: "0e4d10551c66be21abb473cef2c80d81", isTraceMatch: false, … }
+Console.js:61:15
+🎨 CYLINDER COLOR PROCESSING #3: 
+Object { nodeId: "gateway-auth_authenticate", isRelatedToTrace: false, selectedTraceId: "0e4d10551c66be21abb473cef2c80d81", currentColorBefore: 6710886, originalColor: 6333946, materialColor: 6710886 }
+Console.js:61:15
+⬜ DIMMING cylinder: 
+Object { nodeId: "gateway-auth_authenticate", originalColor: 6333946, newColorHex: 6710886 }
+Console.js:61:15
+🎯 Processing cylinder #4 for highlighting: 
+Object { nodeId: "gateway-auth_cache_lookup", rebuildCount: 4, selectedTraceId: "0e4d10551c66be21abb473cef2c80d81", hasNodeId: true, isInValidIds: true }
+Console.js:61:15
+🎨 CYLINDER COLOR PROCESSING #4: 
+Object { nodeId: "gateway-auth_cache_lookup", isRelatedToTrace: false, selectedTraceId: "0e4d10551c66be21abb473cef2c80d81", currentColorBefore: 6710886, originalColor: 16281969, materialColor: 6710886 }
+Console.js:61:15
+⬜ DIMMING cylinder: 
+Object { nodeId: "gateway-auth_cache_lookup", originalColor: 16281969, newColorHex: 6710886 }
+Console.js:61:15
+🎯 Processing cylinder #5 for highlighting: 
+Object { nodeId: "gateway-auth_route_request", rebuildCount: 5, selectedTraceId: "0e4d10551c66be21abb473cef2c80d81", hasNodeId: true, isInValidIds: true }
+Console.js:61:15
+🎨 CYLINDER COLOR PROCESSING #5: 
+Object { nodeId: "gateway-auth_route_request", isRelatedToTrace: false, selectedTraceId: "0e4d10551c66be21abb473cef2c80d81", currentColorBefore: 3462041, originalColor: 3462041, materialColor: 3462041 }
+Console.js:61:15
+⬜ DIMMING cylinder: 
+Object { nodeId: "gateway-auth_route_request", originalColor: 3462041, newColorHex: 6710886 }
+Console.js:61:15
+⬜ DIMMING cylinder: 
+Object { nodeId: "gateway-auth_metrics_collect", originalColor: 16498468, newColorHex: 6710886 }
+Console.js:61:15
+⬜ DIMMING cylinder: 
+Object { nodeId: "gateway-cache_authenticate", originalColor: 6333946, newColorHex: 6710886 }
+Console.js:61:15
+⬜ DIMMING cylinder: 
+Object { nodeId: "gateway-cache_metrics_collect", originalColor: 16281969, newColorHex: 6710886 }
+Console.js:61:15
+⬜ DIMMING cylinder: 
+Object { nodeId: "gateway-main_authenticate", originalColor: 6333946, newColorHex: 6710886 }
+Console.js:61:15
+🔍 SPECIAL DEBUG for gateway-metrics_proxy_request - Edge 0: 
+Object { edgeSource: "gateway-proxy_authenticate", edgeTarget: "order-service_create_order", edgeTraceId: "49dd00eb9544a4d0e5a610188e868a07", selectedTraceId: "0e4d10551c66be21abb473cef2c80d81", isTraceMatch: false, isNodeMatch: false, willReturn: false }
+Console.js:61:15
+🔍 SPECIAL DEBUG for gateway-metrics_proxy_request - Edge 1: 
+Object { edgeSource: "order-service_create_order", edgeTarget: "notification-core_format_message", edgeTraceId: "49dd00eb9544a4d0e5a610188e868a07", selectedTraceId: "0e4d10551c66be21abb473cef2c80d81", isTraceMatch: false, isNodeMatch: false, willReturn: false }
+Console.js:61:15
+🔍 SPECIAL DEBUG for gateway-metrics_proxy_request - Edge 2: 
+Object { edgeSource: "notification-core_format_message", edgeTarget: "identity-provider_verify_identity", edgeTraceId: "49dd00eb9544a4d0e5a610188e868a07", selectedTraceId: "0e4d10551c66be21abb473cef2c80d81", isTraceMatch: false, isNodeMatch: false, willReturn: false }
+Console.js:61:15
+🔍 SPECIAL DEBUG for gateway-metrics_proxy_request - Edge 3: 
+Object { edgeSource: "gateway-proxy_authenticate", edgeTarget: "billing-service_calculate_tax", edgeTraceId: "b6d4385278c79d6ade58be6d045390de", selectedTraceId: "0e4d10551c66be21abb473cef2c80d81", isTraceMatch: false, isNodeMatch: false, willReturn: false }
+Console.js:61:15
+🔍 SPECIAL DEBUG for gateway-metrics_proxy_request - Edge 4: 
+Object { edgeSource: "billing-service_calculate_tax", edgeTarget: "shipping-tracker_manage_fulfillment", edgeTraceId: "b6d4385278c79d6ade58be6d045390de", selectedTraceId: "0e4d10551c66be21abb473cef2c80d81", isTraceMatch: false, isNodeMatch: false, willReturn: false }
+Console.js:61:15
+🔍 SPECIAL DEBUG for gateway-metrics_proxy_request - Edge 5: 
+Object { edgeSource: "shipping-tracker_manage_fulfillment", edgeTarget: "incident-responder_scan_vulnerabilities", edgeTraceId: "b6d4385278c79d6ade58be6d045390de", selectedTraceId: "0e4d10551c66be21abb473cef2c80d81", isTraceMatch: false, isNodeMatch: false, willReturn: false }
+Console.js:61:15
+🔍 SPECIAL DEBUG for gateway-metrics_proxy_request - Edge 6: 
+Object { edgeSource: "gateway-metrics_proxy_request", edgeTarget: "cdn-manager_purge_cache", edgeTraceId: "0e4d10551c66be21abb473cef2c80d81", selectedTraceId: "0e4d10551c66be21abb473cef2c80d81", isTraceMatch: true, isNodeMatch: true, willReturn: true }
+Console.js:61:15
+🎯 TRACKED ENDPOINT - Found during highlight: 
+Object { nodeId: "gateway-metrics_route_request", selectedTraceId: "0e4d10551c66be21abb473cef2c80d81", fullUserData: '{"nodeId":"gateway-metrics_route_request","isNode":true,"isEndpoint":true,"serviceName":"gateway-metrics","tenant":"api-gateway","originalColor":16281969}', position: {…} }
+Console.js:61:15
+🔥 Traverse complete summary: 
+Object { selectedTraceId: "0e4d10551c66be21abb473cef2c80d81", totalCylinders: 125, cylindersWithNodeId: 59, cylindersInValidIds: 59, cylinderCount: "59 (processed)", arrowCount: 120, rebuildCount: "59 (with valid nodeId)", requiredNodes: (4) […], matchingEdges: 3 }
+Console.js:61:15
+🎬 Animation running, frame: 2100 Console.js:61:15
+🎬 Animation running, frame: 2160 Console.js:61:15
+🎬 Animation running, frame: 2220 Console.js:61:15
+🎬 Animation running, frame: 2280 Console.js:61:15
+🎬 Animation running, frame: 2340 Console.js:61:15
+🎬 Animation running, frame: 2400 Console.js:61:15
+🎬 Animation running, frame: 2460 Console.js:61:15
+🎬 Animation running, frame: 2520 Console.js:61:15
+🎬 Animation running, frame: 2580 Console.js:61:15
+🎬 Animation running, frame: 2640 Console.js:61:15
+🎬 Animation running, frame: 2700 Console.js:61:15
+🎬 Animation running, frame: 2880 Console.js:61:15
+
+​
+

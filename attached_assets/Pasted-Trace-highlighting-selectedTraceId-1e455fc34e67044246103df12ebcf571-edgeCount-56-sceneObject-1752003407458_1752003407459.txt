@@ -1,0 +1,79 @@
+Trace highlighting: {selectedTraceId: '1e455fc34e67044246103df12ebcf571', edgeCount: 56, sceneObjectKeys: Array(10)}
+Diagram3D.tsx:2280 🔍 Edge 0: {source: 'gateway-main_authenticate', target: 'gateway-proxy_proxy_request', traceId: '7b506b857a5a624fdbe7ffafa9b6b3e7', traceIds: '["7b506b857a5a624fdbe7ffafa9b6b3e7"]', traceIdCount: 1, …}
+Diagram3D.tsx:2280 🔍 Edge 1: {source: 'gateway-proxy_proxy_request', target: 'media-storage_manage_cdn', traceId: '7b506b857a5a624fdbe7ffafa9b6b3e7', traceIds: '["7b506b857a5a624fdbe7ffafa9b6b3e7"]', traceIdCount: 1, …}
+Diagram3D.tsx:2280 🔍 Edge 2: {source: 'media-storage_manage_cdn', target: 'notification-core_send_sms', traceId: '7b506b857a5a624fdbe7ffafa9b6b3e7', traceIds: '["7b506b857a5a624fdbe7ffafa9b6b3e7"]', traceIdCount: 1, …}
+Diagram3D.tsx:2280 🔍 Edge 3: {source: 'notification-core_send_sms', target: 'session-mgr_update_profile', traceId: '7b506b857a5a624fdbe7ffafa9b6b3e7', traceIds: '["7b506b857a5a624fdbe7ffafa9b6b3e7"]', traceIdCount: 1, …}
+Diagram3D.tsx:2280 🔍 Edge 4: {source: 'gateway-metrics_route_request', target: 'sms-service_render_template', traceId: '1e455fc34e67044246103df12ebcf571', traceIds: '["1e455fc34e67044246103df12ebcf571"]', traceIdCount: 1, …}
+Diagram3D.tsx:2293 🎯 Found 2 edges with selected trace 1e455fc34e67044246103df12ebcf571:
+Diagram3D.tsx:2295   ↳ Matching edge 0: {source: 'gateway-metrics_route_request', target: 'sms-service_render_template', traceId: '1e455fc34e67044246103df12ebcf571'}
+Diagram3D.tsx:2295   ↳ Matching edge 1: {source: 'sms-service_render_template', target: 'report-generator_serve_dashboard', traceId: '1e455fc34e67044246103df12ebcf571'}
+Diagram3D.tsx:2307 🔧 DEBUG: Combined traverse - rebuilding userData AND highlighting
+Diagram3D.tsx:2377 🔧 DEBUG rebuild check: {needsRebuild: false, hasUserData: true, nodeId: 'gateway-main_authenticate', nodeIdType: 'string', position: {…}}
+Diagram3D.tsx:2471 🔍 Found cylinder during traverse: {objectType: 'Mesh', nodeId: 'gateway-main_authenticate', actualNodeId: 'gateway-main_authenticate', nodeIdIsUndefined: false, hasUserData: true, …}
+Diagram3D.tsx:2484 🧪 Testing userData assignment on this object...
+Diagram3D.tsx:2487 After test assignment: {testField: 'test-value-123', userDataKeys: Array(7), userDataStringified: '{"nodeId":"gateway-main_authenticate","isNode":tru…inalColor":16711680,"testField":"test-value-123"}'}
+Diagram3D.tsx:2528 🔍 Checking node match: {nodeId: 'gateway-main_authenticate', edgeSource: 'gateway-metrics_route_request', edgeTarget: 'sms-service_render_template', isNodeMatch: false, traceIds: Array(1), …}
+Diagram3D.tsx:2528 🔍 Checking node match: {nodeId: 'gateway-main_authenticate', edgeSource: 'sms-service_render_template', edgeTarget: 'report-generator_serve_dashboard', isNodeMatch: false, traceIds: Array(1), …}
+Diagram3D.tsx:2561 🔍 Cylinder highlight: {nodeId: 'gateway-main_authenticate', isRelatedToTrace: false, selectedTraceId: '1e455fc34e67044246103df12ebcf571', matchingEdgesCount: 0}
+Diagram3D.tsx:2377 🔧 DEBUG rebuild check: {needsRebuild: false, hasUserData: true, nodeId: 'fulfillment-api_analyze_orders', nodeIdType: 'string', position: {…}}
+Diagram3D.tsx:2528 🔍 Checking node match: {nodeId: 'fulfillment-api_analyze_orders', edgeSource: 'gateway-metrics_route_request', edgeTarget: 'sms-service_render_template', isNodeMatch: false, traceIds: Array(1), …}
+Diagram3D.tsx:2528 🔍 Checking node match: {nodeId: 'fulfillment-api_analyze_orders', edgeSource: 'sms-service_render_template', edgeTarget: 'report-generator_serve_dashboard', isNodeMatch: false, traceIds: Array(1), …}
+Diagram3D.tsx:2561 🔍 Cylinder highlight: {nodeId: 'fulfillment-api_analyze_orders', isRelatedToTrace: false, selectedTraceId: '1e455fc34e67044246103df12ebcf571', matchingEdgesCount: 0}
+Diagram3D.tsx:2457 🔧 NO MATCH found for cylinder: {endpointKey: undefined, objectPos: {…}, availableNodeCount: 56, sampleNodeIds: Array(3)}
+Diagram3D.tsx:2457 🔧 NO MATCH found for cylinder: {endpointKey: undefined, objectPos: {…}, availableNodeCount: 56, sampleNodeIds: Array(3)}
+Diagram3D.tsx:2457 🔧 NO MATCH found for cylinder: {endpointKey: undefined, objectPos: {…}, availableNodeCount: 56, sampleNodeIds: Array(3)}
+Diagram3D.tsx:2457 🔧 NO MATCH found for cylinder: {endpointKey: undefined, objectPos: {…}, availableNodeCount: 56, sampleNodeIds: Array(3)}
+Diagram3D.tsx:2457 🔧 NO MATCH found for cylinder: {endpointKey: undefined, objectPos: {…}, availableNodeCount: 56, sampleNodeIds: Array(3)}
+Diagram3D.tsx:2457 🔧 NO MATCH found for cylinder: {endpointKey: undefined, objectPos: {…}, availableNodeCount: 56, sampleNodeIds: Array(3)}
+Diagram3D.tsx:2457 🔧 NO MATCH found for cylinder: {endpointKey: undefined, objectPos: {…}, availableNodeCount: 56, sampleNodeIds: Array(3)}
+Diagram3D.tsx:2457 🔧 NO MATCH found for cylinder: {endpointKey: undefined, objectPos: {…}, availableNodeCount: 56, sampleNodeIds: Array(3)}
+Diagram3D.tsx:2457 🔧 NO MATCH found for cylinder: {endpointKey: undefined, objectPos: {…}, availableNodeCount: 56, sampleNodeIds: Array(3)}
+Diagram3D.tsx:2457 🔧 NO MATCH found for cylinder: {endpointKey: undefined, objectPos: {…}, availableNodeCount: 56, sampleNodeIds: Array(3)}
+Diagram3D.tsx:2457 🔧 NO MATCH found for cylinder: {endpointKey: undefined, objectPos: {…}, availableNodeCount: 56, sampleNodeIds: Array(3)}
+Diagram3D.tsx:2457 🔧 NO MATCH found for cylinder: {endpointKey: undefined, objectPos: {…}, availableNodeCount: 56, sampleNodeIds: Array(3)}
+Diagram3D.tsx:2457 🔧 NO MATCH found for cylinder: {endpointKey: undefined, objectPos: {…}, availableNodeCount: 56, sampleNodeIds: Array(3)}
+Diagram3D.tsx:2457 🔧 NO MATCH found for cylinder: {endpointKey: undefined, objectPos: {…}, availableNodeCount: 56, sampleNodeIds: Array(3)}
+Diagram3D.tsx:2457 🔧 NO MATCH found for cylinder: {endpointKey: undefined, objectPos: {…}, availableNodeCount: 56, sampleNodeIds: Array(3)}
+Diagram3D.tsx:2457 🔧 NO MATCH found for cylinder: {endpointKey: undefined, objectPos: {…}, availableNodeCount: 56, sampleNodeIds: Array(3)}
+Diagram3D.tsx:2457 🔧 NO MATCH found for cylinder: {endpointKey: undefined, objectPos: {…}, availableNodeCount: 56, sampleNodeIds: Array(3)}
+Diagram3D.tsx:2457 🔧 NO MATCH found for cylinder: {endpointKey: undefined, objectPos: {…}, availableNodeCount: 56, sampleNodeIds: Array(3)}
+Diagram3D.tsx:2457 🔧 NO MATCH found for cylinder: {endpointKey: undefined, objectPos: {…}, availableNodeCount: 56, sampleNodeIds: Array(3)}
+Diagram3D.tsx:2457 🔧 NO MATCH found for cylinder: {endpointKey: undefined, objectPos: {…}, availableNodeCount: 56, sampleNodeIds: Array(3)}
+Diagram3D.tsx:2457 🔧 NO MATCH found for cylinder: {endpointKey: undefined, objectPos: {…}, availableNodeCount: 56, sampleNodeIds: Array(3)}
+Diagram3D.tsx:2457 🔧 NO MATCH found for cylinder: {endpointKey: undefined, objectPos: {…}, availableNodeCount: 56, sampleNodeIds: Array(3)}
+Diagram3D.tsx:2457 🔧 NO MATCH found for cylinder: {endpointKey: undefined, objectPos: {…}, availableNodeCount: 56, sampleNodeIds: Array(3)}
+Diagram3D.tsx:2457 🔧 NO MATCH found for cylinder: {endpointKey: undefined, objectPos: {…}, availableNodeCount: 56, sampleNodeIds: Array(3)}
+Diagram3D.tsx:2457 🔧 NO MATCH found for cylinder: {endpointKey: undefined, objectPos: {…}, availableNodeCount: 56, sampleNodeIds: Array(3)}
+Diagram3D.tsx:2457 🔧 NO MATCH found for cylinder: {endpointKey: undefined, objectPos: {…}, availableNodeCount: 56, sampleNodeIds: Array(3)}
+Diagram3D.tsx:2457 🔧 NO MATCH found for cylinder: {endpointKey: undefined, objectPos: {…}, availableNodeCount: 56, sampleNodeIds: Array(3)}
+Diagram3D.tsx:2457 🔧 NO MATCH found for cylinder: {endpointKey: undefined, objectPos: {…}, availableNodeCount: 56, sampleNodeIds: Array(3)}
+Diagram3D.tsx:2457 🔧 NO MATCH found for cylinder: {endpointKey: undefined, objectPos: {…}, availableNodeCount: 56, sampleNodeIds: Array(3)}
+Diagram3D.tsx:2457 🔧 NO MATCH found for cylinder: {endpointKey: undefined, objectPos: {…}, availableNodeCount: 56, sampleNodeIds: Array(3)}
+Diagram3D.tsx:2457 🔧 NO MATCH found for cylinder: {endpointKey: undefined, objectPos: {…}, availableNodeCount: 56, sampleNodeIds: Array(3)}
+Diagram3D.tsx:2457 🔧 NO MATCH found for cylinder: {endpointKey: undefined, objectPos: {…}, availableNodeCount: 56, sampleNodeIds: Array(3)}
+Diagram3D.tsx:2457 🔧 NO MATCH found for cylinder: {endpointKey: undefined, objectPos: {…}, availableNodeCount: 56, sampleNodeIds: Array(3)}
+Diagram3D.tsx:2457 🔧 NO MATCH found for cylinder: {endpointKey: undefined, objectPos: {…}, availableNodeCount: 56, sampleNodeIds: Array(3)}
+Diagram3D.tsx:2457 🔧 NO MATCH found for cylinder: {endpointKey: undefined, objectPos: {…}, availableNodeCount: 56, sampleNodeIds: Array(3)}
+Diagram3D.tsx:2457 🔧 NO MATCH found for cylinder: {endpointKey: undefined, objectPos: {…}, availableNodeCount: 56, sampleNodeIds: Array(3)}
+Diagram3D.tsx:2457 🔧 NO MATCH found for cylinder: {endpointKey: undefined, objectPos: {…}, availableNodeCount: 56, sampleNodeIds: Array(3)}
+Diagram3D.tsx:2457 🔧 NO MATCH found for cylinder: {endpointKey: undefined, objectPos: {…}, availableNodeCount: 56, sampleNodeIds: Array(3)}
+Diagram3D.tsx:2457 🔧 NO MATCH found for cylinder: {endpointKey: undefined, objectPos: {…}, availableNodeCount: 56, sampleNodeIds: Array(3)}
+Diagram3D.tsx:2457 🔧 NO MATCH found for cylinder: {endpointKey: undefined, objectPos: {…}, availableNodeCount: 56, sampleNodeIds: Array(3)}
+Diagram3D.tsx:2457 🔧 NO MATCH found for cylinder: {endpointKey: undefined, objectPos: {…}, availableNodeCount: 56, sampleNodeIds: Array(3)}
+Diagram3D.tsx:2457 🔧 NO MATCH found for cylinder: {endpointKey: undefined, objectPos: {…}, availableNodeCount: 56, sampleNodeIds: Array(3)}
+Diagram3D.tsx:2457 🔧 NO MATCH found for cylinder: {endpointKey: undefined, objectPos: {…}, availableNodeCount: 56, sampleNodeIds: Array(3)}
+Diagram3D.tsx:2457 🔧 NO MATCH found for cylinder: {endpointKey: undefined, objectPos: {…}, availableNodeCount: 56, sampleNodeIds: Array(3)}
+Diagram3D.tsx:2457 🔧 NO MATCH found for cylinder: {endpointKey: undefined, objectPos: {…}, availableNodeCount: 56, sampleNodeIds: Array(3)}
+Diagram3D.tsx:2457 🔧 NO MATCH found for cylinder: {endpointKey: undefined, objectPos: {…}, availableNodeCount: 56, sampleNodeIds: Array(3)}
+Diagram3D.tsx:2457 🔧 NO MATCH found for cylinder: {endpointKey: undefined, objectPos: {…}, availableNodeCount: 56, sampleNodeIds: Array(3)}
+Diagram3D.tsx:2457 🔧 NO MATCH found for cylinder: {endpointKey: undefined, objectPos: {…}, availableNodeCount: 56, sampleNodeIds: Array(3)}
+Diagram3D.tsx:2457 🔧 NO MATCH found for cylinder: {endpointKey: undefined, objectPos: {…}, availableNodeCount: 56, sampleNodeIds: Array(3)}
+Diagram3D.tsx:2457 🔧 NO MATCH found for cylinder: {endpointKey: undefined, objectPos: {…}, availableNodeCount: 56, sampleNodeIds: Array(3)}
+Diagram3D.tsx:2457 🔧 NO MATCH found for cylinder: {endpointKey: undefined, objectPos: {…}, availableNodeCount: 56, sampleNodeIds: Array(3)}
+Diagram3D.tsx:2457 🔧 NO MATCH found for cylinder: {endpointKey: undefined, objectPos: {…}, availableNodeCount: 56, sampleNodeIds: Array(3)}
+Diagram3D.tsx:2457 🔧 NO MATCH found for cylinder: {endpointKey: undefined, objectPos: {…}, availableNodeCount: 56, sampleNodeIds: Array(3)}
+Diagram3D.tsx:2457 🔧 NO MATCH found for cylinder: {endpointKey: undefined, objectPos: {…}, availableNodeCount: 56, sampleNodeIds: Array(3)}
+Diagram3D.tsx:2457 🔧 NO MATCH found for cylinder: {endpointKey: undefined, objectPos: {…}, availableNodeCount: 56, sampleNodeIds: Array(3)}
+Diagram3D.tsx:2457 🔧 NO MATCH found for cylinder: {endpointKey: undefined, objectPos: {…}, availableNodeCount: 56, sampleNodeIds: Array(3)}
+Diagram3D.tsx:2457 🔧 NO MATCH found for cylinder: {endpointKey: undefined, objectPos: {…}, availableNodeCount: 56, sampleNodeIds: Array(3)}
+Diagram3D.tsx:2772 🔥 Highlighting trace: 1e455fc34e67044246103df12ebcf571 {cylinderCount: 118, arrowCount: 112}

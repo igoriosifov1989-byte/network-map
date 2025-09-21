@@ -1,0 +1,13 @@
+Trace highlighting: {selectedTraceId: 'f5b7ae1d43c6efa7852bcd3a49b11b22', edgeCount: 60, sceneObjectKeys: Array(10)}
+Diagram3D.tsx:2334 🎯 Found 4 edges with selected trace f5b7ae1d43c6efa7852bcd3a49b11b22:
+Diagram3D.tsx:2336   ↳ Matching edge 0: {source: 'gateway-main_cache_lookup', target: 'gateway-proxy_proxy_request', traceId: 'f5b7ae1d43c6efa7852bcd3a49b11b22'}
+Diagram3D.tsx:2336   ↳ Matching edge 1: {source: 'gateway-proxy_proxy_request', target: 'email-service_push_mobile', traceId: 'f5b7ae1d43c6efa7852bcd3a49b11b22'}
+Diagram3D.tsx:2336   ↳ Matching edge 2: {source: 'email-service_push_mobile', target: 'threat-detector_handle_incident', traceId: 'f5b7ae1d43c6efa7852bcd3a49b11b22'}
+Diagram3D.tsx:2351 🎯 Required nodes for highlighting: (5) ['gateway-main_cache_lookup', 'gateway-proxy_proxy_request', 'email-service_push_mobile', 'threat-detector_handle_incident', 'order-analytics_create_order']
+Diagram3D.tsx:2357   📍 Node gateway-main_cache_lookup: {x3d: -277.6656314599949, y3d: 60, z3d: -343.57261577992256, service: 'gateway-main', tenant: 'api-gateway'}
+Diagram3D.tsx:2357   📍 Node gateway-proxy_proxy_request: {x3d: -170.33436854000507, y3d: 30, z3d: -491.30142556433475, service: 'gateway-proxy', tenant: 'api-gateway'}
+Diagram3D.tsx:2357   📍 Node email-service_push_mobile: {x3d: -260, y3d: 30, z3d: -60, service: 'email-service', tenant: 'notification-system'}
+Diagram3D.tsx:2372 🔧 DEBUG: Combined traverse - rebuilding userData AND highlighting
+Diagram3D.tsx:2438 🔧 SKIPPING cylinder without nodeId: {hasUserData: true, userDataKeys: Array(0), position: {…}, objectType: 'Mesh', objectName: 'unnamed', …}
+Diagram3D.tsx:2438 🔧 SKIPPING cylinder without nodeId: {hasUserData: true, userDataKeys: Array(0), position: {…}, objectType: 'Mesh', objectName: 'unnamed', …}
+Diagram3D.tsx:2395 🎯 TRACKED ENDPOINT - Found during highlight: {nodeId: 'gateway-metrics_route_request', selectedTraceId: 'f5b7ae1d43c6efa7852bcd3a49b11b22', fullUserData: '{"nodeId":"gateway-metrics_route_request","isNode"…,"tenant":"api-gateway","originalColor":16281969}', position: {…}}

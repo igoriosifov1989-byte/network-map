@@ -1,0 +1,237 @@
+Download the React DevTools for a better development experience: https://reactjs.org/link/react-devtools
+DiagramGenerator.tsx:184 📊 useMemo recalculating displayData {hasRealTime: false, hasFileData: false, hasOpenTelemetry: false, realTimeEdges: 0, fileDataEdges: 0, …}
+DataGeneratorControls.tsx:203 🔄 useEffect triggered: isAutoRefreshing= true refreshInterval= 5000 isActive= false current interval: null
+DataGeneratorControls.tsx:220 🔄 Auto-enabling refresh on mount, isActive: false
+DataGeneratorControls.tsx:222 🔄 Forcing auto-refresh to true
+DataGeneratorControls.tsx:100 📊 Querying events for 15 min range: 2025-07-08T20:14:41.976Z to 2025-07-08T20:29:41.976Z
+DiagramGenerator.tsx:184 📊 useMemo recalculating displayData {hasRealTime: false, hasFileData: false, hasOpenTelemetry: true, realTimeEdges: 0, fileDataEdges: 0, …}
+Diagram3D.tsx:571 🔄 useEffect triggered with data: 60 edges Data object ID: ncyu3qt3q
+Diagram3D.tsx:574 🔄 Scene update starting: {sceneChildren: 0, cacheSize: 0, nodeCount: 59, edgeCount: 60, firstFewCacheKeys: Array(0)}
+Diagram3D.tsx:590 🧹 Clearing cache for null data or first mount {cacheSizeBefore: 0, hasData: true}
+Diagram3D.tsx:688 Render cycle: {hasPrevData: false, prevDataEdges: 0, newDataEdges: 60, sceneObjectsCount: 0}
+Diagram3D.tsx:695 prevDataRef.current before logic: null
+Diagram3D.tsx:706 Smart caching: scene objects count: 0
+Diagram3D.tsx:707 Scene children count: 0
+Diagram3D.tsx:708 Scene children types: []
+Diagram3D.tsx:718 🔍 Data change analysis: {hasPrevData: false, nodeCountChanged: 'no prev data', edgeCountChanged: 'no prev data', dataHasChanged: true}
+Diagram3D.tsx:768 🔄 Data changed, clearing cache and rebuilding
+Diagram3D.tsx:1087 🏗️ Tenant+Service cluster architecture - tenants: (10) ['analytics-platform', 'api-gateway', 'content-management', 'infrastructure-ops', 'inventory-system', 'notification-system', 'order-processing', 'payment-system', 'security-monitoring', 'user-management']
+Diagram3D.tsx:1106 🏛️ Creating cluster for tenant: analytics-platform with 1 services
+Diagram3D.tsx:1176 🏭 Creating new cylinder: {endpointId: 'report-generator_serve_dashboard', position: {…}, geometryType: 'CylinderGeometry', uuid: 'a0e0e93c-4785-4ed1-8831-304913ab3111'}
+Diagram3D.tsx:1220 🔧 Creating cylinder with userData: {endpointId: 'report-generator_serve_dashboard', nodeId: 'report-generator_serve_dashboard', hasProtection: false, position: {…}}
+Diagram3D.tsx:1176 🏭 Creating new cylinder: {endpointId: 'report-generator_aggregate_data', position: {…}, geometryType: 'CylinderGeometry', uuid: 'db522474-9d9a-4418-b3c3-0e96ee577979'}
+Diagram3D.tsx:1220 🔧 Creating cylinder with userData: {endpointId: 'report-generator_aggregate_data', nodeId: 'report-generator_aggregate_data', hasProtection: false, position: {…}}
+Diagram3D.tsx:1106 🏛️ Creating cluster for tenant: api-gateway with 5 services
+Diagram3D.tsx:1176 🏭 Creating new cylinder: {endpointId: 'gateway-auth_authenticate', position: {…}, geometryType: 'CylinderGeometry', uuid: 'e2ee830f-80d9-4a5d-8373-ee537ae78ab3'}
+Diagram3D.tsx:1220 🔧 Creating cylinder with userData: {endpointId: 'gateway-auth_authenticate', nodeId: 'gateway-auth_authenticate', hasProtection: false, position: {…}}
+Diagram3D.tsx:1176 🏭 Creating new cylinder: {endpointId: 'gateway-auth_cache_lookup', position: {…}, geometryType: 'CylinderGeometry', uuid: 'cbbd84d3-0ccc-4b71-b116-48fb4c1016ac'}
+Diagram3D.tsx:1220 🔧 Creating cylinder with userData: {endpointId: 'gateway-auth_cache_lookup', nodeId: 'gateway-auth_cache_lookup', hasProtection: false, position: {…}}
+Diagram3D.tsx:1176 🏭 Creating new cylinder: {endpointId: 'gateway-auth_route_request', position: {…}, geometryType: 'CylinderGeometry', uuid: '622ba52f-c01a-4c92-87b0-f49e2c63e49a'}
+Diagram3D.tsx:1220 🔧 Creating cylinder with userData: {endpointId: 'gateway-auth_route_request', nodeId: 'gateway-auth_route_request', hasProtection: false, position: {…}}
+Diagram3D.tsx:1176 🏭 Creating new cylinder: {endpointId: 'gateway-auth_metrics_collect', position: {…}, geometryType: 'CylinderGeometry', uuid: '729c3972-7b5e-4eca-9f61-e91703a59c5f'}
+Diagram3D.tsx:1176 🏭 Creating new cylinder: {endpointId: 'gateway-cache_authenticate', position: {…}, geometryType: 'CylinderGeometry', uuid: '22968000-9aed-4997-8076-c6b753eea009'}
+Diagram3D.tsx:1220 🔧 Creating cylinder with userData: {endpointId: 'gateway-cache_authenticate', nodeId: 'gateway-cache_authenticate', hasProtection: false, position: {…}}
+Diagram3D.tsx:1176 🏭 Creating new cylinder: {endpointId: 'gateway-cache_metrics_collect', position: {…}, geometryType: 'CylinderGeometry', uuid: 'f58e4f62-6c78-4203-93ee-aa9062c4f9a2'}
+Diagram3D.tsx:1220 🔧 Creating cylinder with userData: {endpointId: 'gateway-cache_metrics_collect', nodeId: 'gateway-cache_metrics_collect', hasProtection: false, position: {…}}
+Diagram3D.tsx:1176 🏭 Creating new cylinder: {endpointId: 'gateway-main_authenticate', position: {…}, geometryType: 'CylinderGeometry', uuid: '01f5c554-b480-4e34-88a5-5c842806d9a4'}
+Diagram3D.tsx:1220 🔧 Creating cylinder with userData: {endpointId: 'gateway-main_authenticate', nodeId: 'gateway-main_authenticate', hasProtection: false, position: {…}}
+Diagram3D.tsx:1176 🏭 Creating new cylinder: {endpointId: 'gateway-main_route_request', position: {…}, geometryType: 'CylinderGeometry', uuid: '7504e3e4-8688-46f2-9a31-33dbe67a605a'}
+Diagram3D.tsx:1220 🔧 Creating cylinder with userData: {endpointId: 'gateway-main_route_request', nodeId: 'gateway-main_route_request', hasProtection: false, position: {…}}
+Diagram3D.tsx:1176 🏭 Creating new cylinder: {endpointId: 'gateway-main_cache_lookup', position: {…}, geometryType: 'CylinderGeometry', uuid: 'b9b56f36-c70b-48c8-bcc0-c580549e2662'}
+Diagram3D.tsx:1220 🔧 Creating cylinder with userData: {endpointId: 'gateway-main_cache_lookup', nodeId: 'gateway-main_cache_lookup', hasProtection: false, position: {…}}
+Diagram3D.tsx:1176 🏭 Creating new cylinder: {endpointId: 'gateway-metrics_proxy_request', position: {…}, geometryType: 'CylinderGeometry', uuid: 'af97998f-5afc-4bbe-863c-b10ec0b9da50'}
+Diagram3D.tsx:1220 🔧 Creating cylinder with userData: {endpointId: 'gateway-metrics_proxy_request', nodeId: 'gateway-metrics_proxy_request', hasProtection: false, position: {…}}
+Diagram3D.tsx:1155 🎯 TRACKED ENDPOINT - Cache lookup: {endpointId: 'gateway-metrics_route_request', endpointKey: 'endpoint-gateway-metrics_route_request', existingCylinder: false, existingUserData: null}
+Diagram3D.tsx:1176 🏭 Creating new cylinder: {endpointId: 'gateway-metrics_route_request', position: {…}, geometryType: 'CylinderGeometry', uuid: '66ff4a33-c11e-4a6b-b2f5-85a160dcb6fa'}
+Diagram3D.tsx:1210 🎯 TRACKED ENDPOINT - NEW userData created: {endpointId: 'gateway-metrics_route_request', nodeId: 'gateway-metrics_route_request', fullUserData: '{"nodeId":"gateway-metrics_route_request","isNode"…,"tenant":"api-gateway","originalColor":16281969}', position: {…}}
+Diagram3D.tsx:1220 🔧 Creating cylinder with userData: {endpointId: 'gateway-metrics_route_request', nodeId: 'gateway-metrics_route_request', hasProtection: false, position: {…}}
+Diagram3D.tsx:1176 🏭 Creating new cylinder: {endpointId: 'gateway-metrics_authenticate', position: {…}, geometryType: 'CylinderGeometry', uuid: 'eb11bc31-c84a-4703-a58a-6b40bfcf65a3'}
+Diagram3D.tsx:1220 🔧 Creating cylinder with userData: {endpointId: 'gateway-metrics_authenticate', nodeId: 'gateway-metrics_authenticate', hasProtection: false, position: {…}}
+Diagram3D.tsx:1176 🏭 Creating new cylinder: {endpointId: 'gateway-metrics_metrics_collect', position: {…}, geometryType: 'CylinderGeometry', uuid: '8caf2641-a5bb-49ed-b3d9-0c5558a5c414'}
+Diagram3D.tsx:1176 🏭 Creating new cylinder: {endpointId: 'gateway-proxy_authenticate', position: {…}, geometryType: 'CylinderGeometry', uuid: '43d1ef2b-de06-4f25-9a50-a50375787b1c'}
+Diagram3D.tsx:1220 🔧 Creating cylinder with userData: {endpointId: 'gateway-proxy_authenticate', nodeId: 'gateway-proxy_authenticate', hasProtection: false, position: {…}}
+Diagram3D.tsx:1176 🏭 Creating new cylinder: {endpointId: 'gateway-proxy_proxy_request', position: {…}, geometryType: 'CylinderGeometry', uuid: '7eb46c82-c52f-4563-81ef-fb61178a1b09'}
+Diagram3D.tsx:1220 🔧 Creating cylinder with userData: {endpointId: 'gateway-proxy_proxy_request', nodeId: 'gateway-proxy_proxy_request', hasProtection: false, position: {…}}
+Diagram3D.tsx:1106 🏛️ Creating cluster for tenant: content-management with 5 services
+Diagram3D.tsx:1176 🏭 Creating new cylinder: {endpointId: 'asset-optimizer_manage_cdn', position: {…}, geometryType: 'CylinderGeometry', uuid: 'c138501c-5647-4b97-bf75-f41465f93d31'}
+Diagram3D.tsx:1220 🔧 Creating cylinder with userData: {endpointId: 'asset-optimizer_manage_cdn', nodeId: 'asset-optimizer_manage_cdn', hasProtection: false, position: {…}}
+Diagram3D.tsx:1176 🏭 Creating new cylinder: {endpointId: 'cdn-manager_purge_cache', position: {…}, geometryType: 'CylinderGeometry', uuid: '97d930da-618d-4c08-ae4c-6ae5c55ce88e'}
+Diagram3D.tsx:1220 🔧 Creating cylinder with userData: {endpointId: 'cdn-manager_purge_cache', nodeId: 'cdn-manager_purge_cache', hasProtection: false, position: {…}}
+Diagram3D.tsx:1176 🏭 Creating new cylinder: {endpointId: 'cdn-manager_store_media', position: {…}, geometryType: 'CylinderGeometry', uuid: '8bcd8bb3-ce74-4d6e-b97a-44ce7cd3c91e'}
+Diagram3D.tsx:1220 🔧 Creating cylinder with userData: {endpointId: 'cdn-manager_store_media', nodeId: 'cdn-manager_store_media', hasProtection: false, position: {…}}
+Diagram3D.tsx:1176 🏭 Creating new cylinder: {endpointId: 'content-api_store_media', position: {…}, geometryType: 'CylinderGeometry', uuid: 'efe892fd-057c-4cf9-9a64-1e2911a2aed9'}
+Diagram3D.tsx:1220 🔧 Creating cylinder with userData: {endpointId: 'content-api_store_media', nodeId: 'content-api_store_media', hasProtection: false, position: {…}}
+Diagram3D.tsx:1176 🏭 Creating new cylinder: {endpointId: 'content-search_purge_cache', position: {…}, geometryType: 'CylinderGeometry', uuid: 'd5545be4-3116-4082-bb71-6398d58b03f1'}
+Diagram3D.tsx:1220 🔧 Creating cylinder with userData: {endpointId: 'content-search_purge_cache', nodeId: 'content-search_purge_cache', hasProtection: false, position: {…}}
+Diagram3D.tsx:1176 🏭 Creating new cylinder: {endpointId: 'media-storage_manage_cdn', position: {…}, geometryType: 'CylinderGeometry', uuid: '20a5fb76-3010-4cd5-ab6b-f93645de04c0'}
+Diagram3D.tsx:1220 🔧 Creating cylinder with userData: {endpointId: 'media-storage_manage_cdn', nodeId: 'media-storage_manage_cdn', hasProtection: false, position: {…}}
+Diagram3D.tsx:1106 🏛️ Creating cluster for tenant: infrastructure-ops with 2 services
+Diagram3D.tsx:1176 🏭 Creating new cylinder: {endpointId: 'backup-service_deploy_service', position: {…}, geometryType: 'CylinderGeometry', uuid: '448d6717-6dd8-4d07-91e4-1e58c576603d'}
+Diagram3D.tsx:1220 🔧 Creating cylinder with userData: {endpointId: 'backup-service_deploy_service', nodeId: 'backup-service_deploy_service', hasProtection: false, position: {…}}
+Diagram3D.tsx:1176 🏭 Creating new cylinder: {endpointId: 'log-aggregator_deploy_service', position: {…}, geometryType: 'CylinderGeometry', uuid: 'a7a89984-2e3a-44b8-a9de-9f08cc757456'}
+Diagram3D.tsx:1220 🔧 Creating cylinder with userData: {endpointId: 'log-aggregator_deploy_service', nodeId: 'log-aggregator_deploy_service', hasProtection: false, position: {…}}
+Diagram3D.tsx:1106 🏛️ Creating cluster for tenant: inventory-system with 3 services
+Diagram3D.tsx:1176 🏭 Creating new cylinder: {endpointId: 'stock-tracker_check_stock', position: {…}, geometryType: 'CylinderGeometry', uuid: '4360a31f-7053-4509-b727-658a31953a1b'}
+Diagram3D.tsx:1220 🔧 Creating cylinder with userData: {endpointId: 'stock-tracker_check_stock', nodeId: 'stock-tracker_check_stock', hasProtection: false, position: {…}}
+Diagram3D.tsx:1176 🏭 Creating new cylinder: {endpointId: 'stock-tracker_catalog_search', position: {…}, geometryType: 'CylinderGeometry', uuid: '1e93a239-bc3b-420f-975d-319a54931b3f'}
+Diagram3D.tsx:1220 🔧 Creating cylinder with userData: {endpointId: 'stock-tracker_catalog_search', nodeId: 'stock-tracker_catalog_search', hasProtection: false, position: {…}}
+Diagram3D.tsx:1176 🏭 Creating new cylinder: {endpointId: 'supplier-api_sync_suppliers', position: {…}, geometryType: 'CylinderGeometry', uuid: '5a3b9729-9f5b-4c5b-a826-d706e584e32e'}
+Diagram3D.tsx:1220 🔧 Creating cylinder with userData: {endpointId: 'supplier-api_sync_suppliers', nodeId: 'supplier-api_sync_suppliers', hasProtection: false, position: {…}}
+Diagram3D.tsx:1176 🏭 Creating new cylinder: {endpointId: 'supplier-api_get_product', position: {…}, geometryType: 'CylinderGeometry', uuid: 'cfa43d8b-394e-467a-884d-9035a2263b1e'}
+Diagram3D.tsx:1220 🔧 Creating cylinder with userData: {endpointId: 'supplier-api_get_product', nodeId: 'supplier-api_get_product', hasProtection: false, position: {…}}
+Diagram3D.tsx:1176 🏭 Creating new cylinder: {endpointId: 'warehouse-mgmt_update_inventory', position: {…}, geometryType: 'CylinderGeometry', uuid: '3baccb15-e36b-46b3-8788-7fc2be5d77ae'}
+Diagram3D.tsx:1220 🔧 Creating cylinder with userData: {endpointId: 'warehouse-mgmt_update_inventory', nodeId: 'warehouse-mgmt_update_inventory', hasProtection: false, position: {…}}
+Diagram3D.tsx:1106 🏛️ Creating cluster for tenant: notification-system with 4 services
+Diagram3D.tsx:1176 🏭 Creating new cylinder: {endpointId: 'email-service_push_notification', position: {…}, geometryType: 'CylinderGeometry', uuid: '95843362-65d3-4f28-bc96-e75424d8c26e'}
+Diagram3D.tsx:1220 🔧 Creating cylinder with userData: {endpointId: 'email-service_push_notification', nodeId: 'email-service_push_notification', hasProtection: false, position: {…}}
+Diagram3D.tsx:1176 🏭 Creating new cylinder: {endpointId: 'email-service_push_mobile', position: {…}, geometryType: 'CylinderGeometry', uuid: 'b6f2580a-0c47-4ff1-bb7a-89c6663cdf04'}
+Diagram3D.tsx:1220 🔧 Creating cylinder with userData: {endpointId: 'email-service_push_mobile', nodeId: 'email-service_push_mobile', hasProtection: false, position: {…}}
+Diagram3D.tsx:1176 🏭 Creating new cylinder: {endpointId: 'notification-core_format_message', position: {…}, geometryType: 'CylinderGeometry', uuid: 'd1cf8507-2ef3-4cbb-a415-174ebafc7ba8'}
+Diagram3D.tsx:1220 🔧 Creating cylinder with userData: {endpointId: 'notification-core_format_message', nodeId: 'notification-core_format_message', hasProtection: false, position: {…}}
+Diagram3D.tsx:1176 🏭 Creating new cylinder: {endpointId: 'notification-core_send_sms', position: {…}, geometryType: 'CylinderGeometry', uuid: 'ba9ea0f3-6fab-43d9-ade3-b397a665ca9d'}
+Diagram3D.tsx:1220 🔧 Creating cylinder with userData: {endpointId: 'notification-core_send_sms', nodeId: 'notification-core_send_sms', hasProtection: false, position: {…}}
+Diagram3D.tsx:1176 🏭 Creating new cylinder: {endpointId: 'push-service_send_email', position: {…}, geometryType: 'CylinderGeometry', uuid: 'c97969af-bd38-4003-ad1f-527a3b9c8767'}
+Diagram3D.tsx:1220 🔧 Creating cylinder with userData: {endpointId: 'push-service_send_email', nodeId: 'push-service_send_email', hasProtection: false, position: {…}}
+Diagram3D.tsx:1176 🏭 Creating new cylinder: {endpointId: 'sms-service_render_template', position: {…}, geometryType: 'CylinderGeometry', uuid: 'df2e9936-c106-4756-bc44-531e785558f4'}
+Diagram3D.tsx:1220 🔧 Creating cylinder with userData: {endpointId: 'sms-service_render_template', nodeId: 'sms-service_render_template', hasProtection: false, position: {…}}
+Diagram3D.tsx:1176 🏭 Creating new cylinder: {endpointId: 'sms-service_format_message', position: {…}, geometryType: 'CylinderGeometry', uuid: 'fb5098a1-68c1-4220-9723-df4a364997f1'}
+Diagram3D.tsx:1220 🔧 Creating cylinder with userData: {endpointId: 'sms-service_format_message', nodeId: 'sms-service_format_message', hasProtection: false, position: {…}}
+Diagram3D.tsx:1106 🏛️ Creating cluster for tenant: order-processing with 5 services
+Diagram3D.tsx:1176 🏭 Creating new cylinder: {endpointId: 'fulfillment-api_analyze_orders', position: {…}, geometryType: 'CylinderGeometry', uuid: '34d5f57d-60c6-4cb0-b373-0834e3c659f6'}
+Diagram3D.tsx:1220 🔧 Creating cylinder with userData: {endpointId: 'fulfillment-api_analyze_orders', nodeId: 'fulfillment-api_analyze_orders', hasProtection: false, position: {…}}
+Diagram3D.tsx:1176 🏭 Creating new cylinder: {endpointId: 'order-analytics_create_order', position: {…}, geometryType: 'CylinderGeometry', uuid: 'a9b22b9c-9f87-4bc6-9d19-4ff415381a38'}
+Diagram3D.tsx:1220 🔧 Creating cylinder with userData: {endpointId: 'order-analytics_create_order', nodeId: 'order-analytics_create_order', hasProtection: false, position: {…}}
+Diagram3D.tsx:1176 🏭 Creating new cylinder: {endpointId: 'order-service_create_order', position: {…}, geometryType: 'CylinderGeometry', uuid: 'f93255a8-0731-4250-9eba-f997d9fd672b'}
+Diagram3D.tsx:1220 🔧 Creating cylinder with userData: {endpointId: 'order-service_create_order', nodeId: 'order-service_create_order', hasProtection: false, position: {…}}
+Diagram3D.tsx:1176 🏭 Creating new cylinder: {endpointId: 'return-handler_fulfill_order', position: {…}, geometryType: 'CylinderGeometry', uuid: '28bbeb9c-9389-4ef1-906a-1405b73072af'}
+Diagram3D.tsx:1220 🔧 Creating cylinder with userData: {endpointId: 'return-handler_fulfill_order', nodeId: 'return-handler_fulfill_order', hasProtection: false, position: {…}}
+Diagram3D.tsx:1176 🏭 Creating new cylinder: {endpointId: 'shipping-tracker_manage_fulfillment', position: {…}, geometryType: 'CylinderGeometry', uuid: 'd2995284-786a-4cb1-9e18-0ffd6216f07d'}
+Diagram3D.tsx:1220 🔧 Creating cylinder with userData: {endpointId: 'shipping-tracker_manage_fulfillment', nodeId: 'shipping-tracker_manage_fulfillment', hasProtection: false, position: {…}}
+Diagram3D.tsx:1176 🏭 Creating new cylinder: {endpointId: 'shipping-tracker_fulfill_order', position: {…}, geometryType: 'CylinderGeometry', uuid: '45286475-d390-49ed-99fc-deb5fa31e0a5'}
+Diagram3D.tsx:1220 🔧 Creating cylinder with userData: {endpointId: 'shipping-tracker_fulfill_order', nodeId: 'shipping-tracker_fulfill_order', hasProtection: false, position: {…}}
+Diagram3D.tsx:1106 🏛️ Creating cluster for tenant: payment-system with 4 services
+Diagram3D.tsx:1176 🏭 Creating new cylinder: {endpointId: 'billing-service_calculate_tax', position: {…}, geometryType: 'CylinderGeometry', uuid: '571246b1-77a7-41ae-9c86-0e51e326388d'}
+Diagram3D.tsx:1220 🔧 Creating cylinder with userData: {endpointId: 'billing-service_calculate_tax', nodeId: 'billing-service_calculate_tax', hasProtection: false, position: {…}}
+Diagram3D.tsx:1176 🏭 Creating new cylinder: {endpointId: 'fraud-detection_refund_payment', position: {…}, geometryType: 'CylinderGeometry', uuid: '1f9dfa5f-f236-4c82-b019-2a0590055b4f'}
+Diagram3D.tsx:1220 🔧 Creating cylinder with userData: {endpointId: 'fraud-detection_refund_payment', nodeId: 'fraud-detection_refund_payment', hasProtection: false, position: {…}}
+Diagram3D.tsx:1176 🏭 Creating new cylinder: {endpointId: 'fraud-detection_detect_fraud', position: {…}, geometryType: 'CylinderGeometry', uuid: 'e745426a-d6f6-4101-9bf7-24e5daa64c89'}
+Diagram3D.tsx:1220 🔧 Creating cylinder with userData: {endpointId: 'fraud-detection_detect_fraud', nodeId: 'fraud-detection_detect_fraud', hasProtection: false, position: {…}}
+Diagram3D.tsx:1176 🏭 Creating new cylinder: {endpointId: 'payment-gateway_refund_payment', position: {…}, geometryType: 'CylinderGeometry', uuid: '264d7de0-97c1-4d4f-9c8c-a3a1b2b273b7'}
+Diagram3D.tsx:1220 🔧 Creating cylinder with userData: {endpointId: 'payment-gateway_refund_payment', nodeId: 'payment-gateway_refund_payment', hasProtection: false, position: {…}}
+Diagram3D.tsx:1176 🏭 Creating new cylinder: {endpointId: 'tax-calculator_calculate_tax', position: {…}, geometryType: 'CylinderGeometry', uuid: 'ef80ee03-31e3-4a09-bc16-fce90c9a93e6'}
+Diagram3D.tsx:1220 🔧 Creating cylinder with userData: {endpointId: 'tax-calculator_calculate_tax', nodeId: 'tax-calculator_calculate_tax', hasProtection: false, position: {…}}
+Diagram3D.tsx:1106 🏛️ Creating cluster for tenant: security-monitoring with 4 services
+Diagram3D.tsx:1176 🏭 Creating new cylinder: {endpointId: 'audit-logger_handle_incident', position: {…}, geometryType: 'CylinderGeometry', uuid: '6871ca6f-0847-472e-9487-25ebc23861a4'}
+Diagram3D.tsx:1220 🔧 Creating cylinder with userData: {endpointId: 'audit-logger_handle_incident', nodeId: 'audit-logger_handle_incident', hasProtection: false, position: {…}}
+Diagram3D.tsx:1176 🏭 Creating new cylinder: {endpointId: 'compliance-checker_scan_vulnerabilities', position: {…}, geometryType: 'CylinderGeometry', uuid: '690c4a19-964d-4a7d-bbb8-e5082e1cbb62'}
+Diagram3D.tsx:1220 🔧 Creating cylinder with userData: {endpointId: 'compliance-checker_scan_vulnerabilities', nodeId: 'compliance-checker_scan_vulnerabilities', hasProtection: false, position: {…}}
+Diagram3D.tsx:1176 🏭 Creating new cylinder: {endpointId: 'compliance-checker_detect_threats', position: {…}, geometryType: 'CylinderGeometry', uuid: 'fe71e30d-f429-42fe-8a3a-95f6c5d8456b'}
+Diagram3D.tsx:1220 🔧 Creating cylinder with userData: {endpointId: 'compliance-checker_detect_threats', nodeId: 'compliance-checker_detect_threats', hasProtection: false, position: {…}}
+Diagram3D.tsx:1176 🏭 Creating new cylinder: {endpointId: 'incident-responder_scan_vulnerabilities', position: {…}, geometryType: 'CylinderGeometry', uuid: 'd71b493f-5664-4bb1-aaa0-52bb8e5a674d'}
+Diagram3D.tsx:1220 🔧 Creating cylinder with userData: {endpointId: 'incident-responder_scan_vulnerabilities', nodeId: 'incident-responder_scan_vulnerabilities', hasProtection: false, position: {…}}
+Diagram3D.tsx:1176 🏭 Creating new cylinder: {endpointId: 'threat-detector_handle_incident', position: {…}, geometryType: 'CylinderGeometry', uuid: '04f41912-05f3-4622-813c-607105c5c4d1'}
+Diagram3D.tsx:1220 🔧 Creating cylinder with userData: {endpointId: 'threat-detector_handle_incident', nodeId: 'threat-detector_handle_incident', hasProtection: false, position: {…}}
+Diagram3D.tsx:1106 🏛️ Creating cluster for tenant: user-management with 4 services
+Diagram3D.tsx:1176 🏭 Creating new cylinder: {endpointId: 'identity-provider_verify_identity', position: {…}, geometryType: 'CylinderGeometry', uuid: '0168da5d-7d26-475d-ba38-a45da37726d2'}
+Diagram3D.tsx:1220 🔧 Creating cylinder with userData: {endpointId: 'identity-provider_verify_identity', nodeId: 'identity-provider_verify_identity', hasProtection: false, position: {…}}
+Diagram3D.tsx:1176 🏭 Creating new cylinder: {endpointId: 'profile-service_manage_session', position: {…}, geometryType: 'CylinderGeometry', uuid: '2e128555-e5d0-42f5-80d5-01408cfb1673'}
+Diagram3D.tsx:1220 🔧 Creating cylinder with userData: {endpointId: 'profile-service_manage_session', nodeId: 'profile-service_manage_session', hasProtection: false, position: {…}}
+Diagram3D.tsx:1176 🏭 Creating new cylinder: {endpointId: 'session-mgr_update_profile', position: {…}, geometryType: 'CylinderGeometry', uuid: 'b688f2e4-96a9-42c1-8dfc-f723dfc1b20d'}
+Diagram3D.tsx:1220 🔧 Creating cylinder with userData: {endpointId: 'session-mgr_update_profile', nodeId: 'session-mgr_update_profile', hasProtection: false, position: {…}}
+Diagram3D.tsx:1176 🏭 Creating new cylinder: {endpointId: 'session-mgr_validate_session', position: {…}, geometryType: 'CylinderGeometry', uuid: 'da3f471c-10d1-401d-9638-ff2a6546d805'}
+Diagram3D.tsx:1220 🔧 Creating cylinder with userData: {endpointId: 'session-mgr_validate_session', nodeId: 'session-mgr_validate_session', hasProtection: false, position: {…}}
+Diagram3D.tsx:1176 🏭 Creating new cylinder: {endpointId: 'session-mgr_create_user', position: {…}, geometryType: 'CylinderGeometry', uuid: 'e17bdd9f-f990-4786-a0e1-988919efa282'}
+Diagram3D.tsx:1220 🔧 Creating cylinder with userData: {endpointId: 'session-mgr_create_user', nodeId: 'session-mgr_create_user', hasProtection: false, position: {…}}
+Diagram3D.tsx:1176 🏭 Creating new cylinder: {endpointId: 'user-service_manage_session', position: {…}, geometryType: 'CylinderGeometry', uuid: '9e179dd4-9f78-4b3a-8b30-6be8e690cfa1'}
+Diagram3D.tsx:1220 🔧 Creating cylinder with userData: {endpointId: 'user-service_manage_session', nodeId: 'user-service_manage_session', hasProtection: false, position: {…}}
+Diagram3D.tsx:1785 Creating unidirectional arrow: arrow-gateway-proxy_authenticate-order-service_create_order
+Diagram3D.tsx:1785 Creating unidirectional arrow: arrow-order-service_create_order-notification-core_format_message
+Diagram3D.tsx:1785 Creating unidirectional arrow: arrow-notification-core_format_message-identity-provider_verify_identity
+Diagram3D.tsx:1785 Creating unidirectional arrow: arrow-gateway-proxy_authenticate-billing-service_calculate_tax
+Diagram3D.tsx:1785 Creating unidirectional arrow: arrow-billing-service_calculate_tax-shipping-tracker_manage_fulfillment
+Diagram3D.tsx:1785 Creating unidirectional arrow: arrow-shipping-tracker_manage_fulfillment-incident-responder_scan_vulnerabilities
+Diagram3D.tsx:1785 Creating unidirectional arrow: arrow-gateway-metrics_proxy_request-cdn-manager_purge_cache
+Diagram3D.tsx:1785 Creating unidirectional arrow: arrow-cdn-manager_purge_cache-sms-service_render_template
+Diagram3D.tsx:1785 Creating unidirectional arrow: arrow-sms-service_render_template-supplier-api_sync_suppliers
+Diagram3D.tsx:1785 Creating unidirectional arrow: arrow-gateway-cache_authenticate-gateway-proxy_proxy_request
+Diagram3D.tsx:1785 Creating unidirectional arrow: arrow-gateway-proxy_proxy_request-return-handler_fulfill_order
+Diagram3D.tsx:1785 Creating unidirectional arrow: arrow-gateway-auth_authenticate-gateway-proxy_proxy_request
+Diagram3D.tsx:1785 Creating unidirectional arrow: arrow-gateway-proxy_proxy_request-stock-tracker_check_stock
+Diagram3D.tsx:1785 Creating unidirectional arrow: arrow-stock-tracker_check_stock-compliance-checker_scan_vulnerabilities
+Diagram3D.tsx:1785 Creating unidirectional arrow: arrow-gateway-main_authenticate-gateway-proxy_proxy_request
+Diagram3D.tsx:1785 Creating unidirectional arrow: arrow-gateway-proxy_proxy_request-media-storage_manage_cdn
+Diagram3D.tsx:1785 Creating unidirectional arrow: arrow-media-storage_manage_cdn-notification-core_send_sms
+Diagram3D.tsx:1785 Creating unidirectional arrow: arrow-notification-core_send_sms-session-mgr_update_profile
+Diagram3D.tsx:1785 Creating unidirectional arrow: arrow-gateway-metrics_route_request-sms-service_render_template
+Diagram3D.tsx:1785 Creating unidirectional arrow: arrow-sms-service_render_template-report-generator_serve_dashboard
+Diagram3D.tsx:1785 Creating unidirectional arrow: arrow-gateway-auth_cache_lookup-gateway-proxy_proxy_request
+Diagram3D.tsx:1785 Creating unidirectional arrow: arrow-gateway-proxy_proxy_request-content-api_store_media
+Diagram3D.tsx:1785 Creating unidirectional arrow: arrow-content-api_store_media-fulfillment-api_analyze_orders
+Diagram3D.tsx:1785 Creating unidirectional arrow: arrow-fulfillment-api_analyze_orders-sms-service_format_message
+Diagram3D.tsx:1785 Creating unidirectional arrow: arrow-gateway-auth_route_request-gateway-proxy_proxy_request
+Diagram3D.tsx:1785 Creating unidirectional arrow: arrow-gateway-proxy_proxy_request-log-aggregator_deploy_service
+Diagram3D.tsx:1785 Creating unidirectional arrow: arrow-log-aggregator_deploy_service-fraud-detection_refund_payment
+Diagram3D.tsx:1785 Creating unidirectional arrow: arrow-gateway-proxy_authenticate-stock-tracker_catalog_search
+Diagram3D.tsx:1785 Creating unidirectional arrow: arrow-stock-tracker_catalog_search-tax-calculator_calculate_tax
+Diagram3D.tsx:1785 Creating unidirectional arrow: arrow-tax-calculator_calculate_tax-session-mgr_validate_session
+Diagram3D.tsx:1785 Creating unidirectional arrow: arrow-gateway-proxy_proxy_request-profile-service_manage_session
+Diagram3D.tsx:1785 Creating unidirectional arrow: arrow-profile-service_manage_session-payment-gateway_refund_payment
+Diagram3D.tsx:1785 Creating unidirectional arrow: arrow-gateway-main_route_request-gateway-proxy_proxy_request
+Diagram3D.tsx:1785 Creating unidirectional arrow: arrow-gateway-proxy_proxy_request-warehouse-mgmt_update_inventory
+Diagram3D.tsx:1785 Creating unidirectional arrow: arrow-gateway-metrics_authenticate-gateway-proxy_proxy_request
+Diagram3D.tsx:1785 Creating unidirectional arrow: arrow-gateway-proxy_proxy_request-backup-service_deploy_service
+Diagram3D.tsx:1785 Creating unidirectional arrow: arrow-backup-service_deploy_service-content-search_purge_cache
+Diagram3D.tsx:1785 Creating unidirectional arrow: arrow-content-search_purge_cache-email-service_push_notification
+Diagram3D.tsx:1785 Creating unidirectional arrow: arrow-gateway-main_cache_lookup-gateway-proxy_proxy_request
+Diagram3D.tsx:1785 Creating unidirectional arrow: arrow-gateway-proxy_proxy_request-email-service_push_mobile
+Diagram3D.tsx:1785 Creating unidirectional arrow: arrow-email-service_push_mobile-threat-detector_handle_incident
+Diagram3D.tsx:1785 Creating unidirectional arrow: arrow-threat-detector_handle_incident-order-analytics_create_order
+Diagram3D.tsx:1785 Creating unidirectional arrow: arrow-gateway-proxy_authenticate-shipping-tracker_fulfill_order
+Diagram3D.tsx:1785 Creating unidirectional arrow: arrow-shipping-tracker_fulfill_order-stock-tracker_check_stock
+Diagram3D.tsx:1785 Creating unidirectional arrow: arrow-stock-tracker_check_stock-media-storage_manage_cdn
+Diagram3D.tsx:1785 Creating unidirectional arrow: arrow-gateway-auth_metrics_collect-gateway-proxy_proxy_request
+Diagram3D.tsx:1785 Creating unidirectional arrow: arrow-gateway-proxy_proxy_request-session-mgr_validate_session
+Diagram3D.tsx:1785 Creating unidirectional arrow: arrow-session-mgr_validate_session-fraud-detection_detect_fraud
+Diagram3D.tsx:1785 Creating unidirectional arrow: arrow-gateway-metrics_authenticate-push-service_send_email
+Diagram3D.tsx:1785 Creating unidirectional arrow: arrow-push-service_send_email-warehouse-mgmt_update_inventory
+Diagram3D.tsx:1785 Creating unidirectional arrow: arrow-warehouse-mgmt_update_inventory-asset-optimizer_manage_cdn
+Diagram3D.tsx:1785 Creating unidirectional arrow: arrow-gateway-cache_metrics_collect-audit-logger_handle_incident
+Diagram3D.tsx:1785 Creating unidirectional arrow: arrow-audit-logger_handle_incident-supplier-api_get_product
+Diagram3D.tsx:1785 Creating unidirectional arrow: arrow-supplier-api_get_product-user-service_manage_session
+Diagram3D.tsx:1785 Creating unidirectional arrow: arrow-gateway-metrics_metrics_collect-gateway-proxy_proxy_request
+Diagram3D.tsx:1785 Creating unidirectional arrow: arrow-gateway-proxy_proxy_request-cdn-manager_store_media
+Diagram3D.tsx:1785 Creating unidirectional arrow: arrow-cdn-manager_store_media-report-generator_aggregate_data
+Diagram3D.tsx:1785 Creating unidirectional arrow: arrow-report-generator_aggregate_data-compliance-checker_detect_threats
+Diagram3D.tsx:1785 Creating unidirectional arrow: arrow-gateway-metrics_authenticate-audit-logger_handle_incident
+Diagram3D.tsx:1785 Creating unidirectional arrow: arrow-audit-logger_handle_incident-session-mgr_create_user
+Diagram3D.tsx:2337 🎬 Starting animation loop
+Diagram3D.tsx:2241 🎯 Animation LOD: medium (services: 59, relative distance: 0.31x, camera distance: 500, scheme diagonal: 1639)
+Diagram3D.tsx:2404 🎯 Trace highlighting: {selectedTraceId: null, edgeCount: 60, sceneObjectKeys: Array(10)}
+Diagram3D.tsx:2412 🎯 Found 0 edges with selected trace null:
+Diagram3D.tsx:2429 🎯 Required nodes for highlighting: []
+Diagram3D.tsx:2450 🔧 DEBUG: Combined traverse - rebuilding userData AND highlighting
+Diagram3D.tsx:2530 🔧 PROBLEMATIC OBJECT ANALYSIS: {hasUserData: true, userDataKeys: Array(0), position: {…}, objectType: 'Mesh', objectName: 'unnamed', …}
+Diagram3D.tsx:2530 🔧 PROBLEMATIC OBJECT ANALYSIS: {hasUserData: true, userDataKeys: Array(0), position: {…}, objectType: 'Mesh', objectName: 'unnamed', …}
+Diagram3D.tsx:2483 🎯 TRACKED ENDPOINT - Found during highlight: {nodeId: 'gateway-metrics_route_request', selectedTraceId: null, fullUserData: '{"nodeId":"gateway-metrics_route_request","isNode"…,"tenant":"api-gateway","originalColor":16281969}', position: {…}}
+Diagram3D.tsx:2133 🎬 Animation running, frame: 60
+Diagram3D.tsx:2404 🎯 Trace highlighting: {selectedTraceId: '0e4d10551c66be21abb473cef2c80d81', edgeCount: 60, sceneObjectKeys: Array(10)}
+Diagram3D.tsx:2412 🎯 Found 3 edges with selected trace 0e4d10551c66be21abb473cef2c80d81:
+Diagram3D.tsx:2414   ↳ Matching edge 0: {source: 'gateway-metrics_proxy_request', target: 'cdn-manager_purge_cache', traceId: '0e4d10551c66be21abb473cef2c80d81'}
+Diagram3D.tsx:2414   ↳ Matching edge 1: {source: 'cdn-manager_purge_cache', target: 'sms-service_render_template', traceId: '0e4d10551c66be21abb473cef2c80d81'}
+Diagram3D.tsx:2414   ↳ Matching edge 2: {source: 'sms-service_render_template', target: 'supplier-api_sync_suppliers', traceId: '0e4d10551c66be21abb473cef2c80d81'}
+Diagram3D.tsx:2429 🎯 Required nodes for highlighting: (4) ['gateway-metrics_proxy_request', 'cdn-manager_purge_cache', 'sms-service_render_template', 'supplier-api_sync_suppliers']
+Diagram3D.tsx:2435   📍 Node gateway-metrics_proxy_request: {x3d: -277.665631459995, y3d: -90, z3d: -456.42738422007744, service: 'gateway-metrics', tenant: 'api-gateway'}
+Diagram3D.tsx:2435   📍 Node cdn-manager_purge_cache: {x3d: 229.66563145999496, y3d: -30, z3d: -308.69857443566525, service: 'cdn-manager', tenant: 'content-management'}
+Diagram3D.tsx:2435   📍 Node sms-service_render_template: {x3d: -140, y3d: -30, z3d: 60, service: 'sms-service', tenant: 'notification-system'}
+Diagram3D.tsx:2450 🔧 DEBUG: Combined traverse - rebuilding userData AND highlighting
+Diagram3D.tsx:2530 🔧 PROBLEMATIC OBJECT ANALYSIS: {hasUserData: true, userDataKeys: Array(0), position: {…}, objectType: 'Mesh', objectName: 'unnamed', …}
+Diagram3D.tsx:2530 🔧 PROBLEMATIC OBJECT ANALYSIS: {hasUserData: true, userDataKeys: Array(0), position: {…}, objectType: 'Mesh', objectName: 'unnamed', …}
+Diagram3D.tsx:2483 🎯 TRACKED ENDPOINT - Found during highlight: {nodeId: 'gateway-metrics_route_request', selectedTraceId: '0e4d10551c66be21abb473cef2c80d81', fullUserData: '{"nodeId":"gateway-metrics_route_request","isNode"…,"tenant":"api-gateway","originalColor":16281969}', position: {…}}
+Diagram3D.tsx:2864 🔥 Highlighting trace: 0e4d10551c66be21abb473cef2c80d81 {cylinderCount: 125, arrowCount: 120}
+Diagram3D.tsx:2404 🎯 Trace highlighting: {selectedTraceId: null, edgeCount: 60, sceneObjectKeys: Array(10)}
+Diagram3D.tsx:2412 🎯 Found 0 edges with selected trace null:
+Diagram3D.tsx:2429 🎯 Required nodes for highlighting: []
+Diagram3D.tsx:2450 🔧 DEBUG: Combined traverse - rebuilding userData AND highlighting
+Diagram3D.tsx:2530 🔧 PROBLEMATIC OBJECT ANALYSIS: {hasUserData: true, userDataKeys: Array(0), position: {…}, objectType: 'Mesh', objectName: 'unnamed', …}
+Diagram3D.tsx:2530 🔧 PROBLEMATIC OBJECT ANALYSIS: {hasUserData: true, userDataKeys: Array(0), position: {…}, objectType: 'Mesh', objectName: 'unnamed', …}
+Diagram3D.tsx:2483 🎯 TRACKED ENDPOINT - Found during highlight: {nodeId: 'gateway-metrics_route_request', selectedTraceId: null, fullUserData: '{"nodeId":"gateway-metrics_route_request","isNode"…,"tenant":"api-gateway","originalColor":16281969}', position: {…}}

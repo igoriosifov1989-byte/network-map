@@ -1,0 +1,15 @@
+🎯 Animation LOD: medium (services: 56, relative distance: 0.30x, camera distance: 500, scheme diagonal: 1645)
+Diagram3D.tsx:2245 🎯 Trace highlighting: {selectedTraceId: null, edgeCount: 56, sampleEdges: Array(3), sceneObjectKeys: Array(10)}
+Diagram3D.tsx:2275 🔍 Found cylinder during traverse: {objectType: 'Mesh', nodeId: undefined, actualNodeId: undefined, hasUserData: true, isEndpoint: undefined, …}
+Diagram3D.tsx:2286 🧪 Testing userData assignment on this object...
+Diagram3D.tsx:2289 After test assignment: {testField: 'test-value-123', userDataKeys: Array(1), userDataStringified: '{"testField":"test-value-123"}'}
+Diagram3D.tsx:2245 🎯 Trace highlighting: {selectedTraceId: '30fb424839f1d5e6ea97bacdc18d0f65', edgeCount: 56, sampleEdges: Array(3), sceneObjectKeys: Array(10)}
+Diagram3D.tsx:2275 🔍 Found cylinder during traverse: {objectType: 'Mesh', nodeId: undefined, actualNodeId: undefined, hasUserData: true, isEndpoint: undefined, …}
+Diagram3D.tsx:2286 🧪 Testing userData assignment on this object...
+Diagram3D.tsx:2289 After test assignment: {testField: 'test-value-123', userDataKeys: Array(1), userDataStringified: '{"testField":"test-value-123"}'}
+Diagram3D.tsx:2309 🔍 Checking node match: {nodeId: undefined, edgeSource: 'gateway-auth_authenticate', edgeTarget: 'content-api_store_media', isNodeMatch: false, traceIds: Array(1), …}
+Diagram3D.tsx:2341 🔍 Cylinder highlight: {nodeId: undefined, isRelatedToTrace: false, selectedTraceId: '30fb424839f1d5e6ea97bacdc18d0f65', matchingEdges: Array(0)}
+Diagram3D.tsx:2309 🔍 Checking node match: {nodeId: undefined, edgeSource: 'gateway-auth_authenticate', edgeTarget: 'content-api_store_media', isNodeMatch: false, traceIds: Array(1), …}
+Diagram3D.tsx:2341 🔍 Cylinder highlight: {nodeId: undefined, isRelatedToTrace: false, selectedTraceId: '30fb424839f1d5e6ea97bacdc18d0f65', matchingEdges: Array(0)}
+Diagram3D.tsx:2541 🔥 Highlighting trace: 30fb424839f1d5e6ea97bacdc18d0f65 {cylinderCount: 118, arrowCount: 112}
+Diagram3D.tsx:1974 🎬 Animation running, frame: 60

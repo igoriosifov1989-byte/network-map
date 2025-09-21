@@ -1,0 +1,16 @@
+Trace highlighting: {selectedTraceId: '1e455fc34e67044246103df12ebcf571', edgeCount: 56, sceneObjectKeys: Array(10)}
+Diagram3D.tsx:2258 🎯 Found 2 edges with selected trace 1e455fc34e67044246103df12ebcf571:
+Diagram3D.tsx:2260   ↳ Matching edge 0: {source: 'gateway-metrics_route_request', target: 'sms-service_render_template', traceId: '1e455fc34e67044246103df12ebcf571'}
+Diagram3D.tsx:2260   ↳ Matching edge 1: {source: 'sms-service_render_template', target: 'report-generator_serve_dashboard', traceId: '1e455fc34e67044246103df12ebcf571'}
+Diagram3D.tsx:2275 🎯 Required nodes for highlighting: (3) ['gateway-metrics_route_request', 'sms-service_render_template', 'report-generator_serve_dashboard']
+Diagram3D.tsx:2281   📍 Node gateway-metrics_route_request: {x3d: -277.665631459995, y3d: -60, z3d: -456.42738422007744, service: 'gateway-metrics', tenant: 'api-gateway'}
+Diagram3D.tsx:2281   📍 Node sms-service_render_template: {x3d: -140, y3d: -30, z3d: 60, service: 'sms-service', tenant: 'notification-system'}
+Diagram3D.tsx:2281   📍 Node report-generator_serve_dashboard: {x3d: -600, y3d: -30, z3d: -400, service: 'report-generator', tenant: 'analytics-platform'}
+Diagram3D.tsx:2296 🔧 DEBUG: Combined traverse - rebuilding userData AND highlighting
+Diagram3D.tsx:2317 🔍 Cylinder 2 userData: {hasUserData: true, nodeId: undefined, endpointId: undefined, allKeys: Array(0)}
+Diagram3D.tsx:2335 🔍 Found cylinder during traverse: {objectType: 'Mesh', nodeId: undefined, actualNodeId: undefined, nodeIdIsUndefined: true, hasUserData: true, …}
+Diagram3D.tsx:2348 🧪 Testing userData assignment on this object...
+Diagram3D.tsx:2351 After test assignment: {testField: 'test-value-123', userDataKeys: Array(1), userDataStringified: '{"testField":"test-value-123"}'}
+Diagram3D.tsx:2374 🔍 Dimming cylinder without nodeId: {nodeId: undefined, selectedTraceId: '1e455fc34e67044246103df12ebcf571', hasNodeId: false}
+Diagram3D.tsx:2317 🔍 Cylinder 3 userData: {hasUserData: true, nodeId: undefined, endpointId: undefined, allKeys: Array(0)}
+Diagram3D.tsx:2374 🔍 Dimming cylinder without nodeId: {nodeId: undefined, selectedTraceId: '1e455fc34e67044246103df12ebcf571', hasNodeId: false}

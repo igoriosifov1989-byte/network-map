@@ -1,0 +1,30 @@
+Trace highlighting: {selectedTraceId: null, edgeCount: 60, sceneObjectKeys: Array(10)}
+Diagram3D.tsx:2404 🎯 Found 0 edges with selected trace null:
+Diagram3D.tsx:2421 🎯 Required nodes for highlighting: []
+Diagram3D.tsx:2442 🔧 DEBUG: Combined traverse - rebuilding userData AND highlighting
+Diagram3D.tsx:2512 🔧 SKIPPING cylinder without nodeId: {hasUserData: true, userDataKeys: Array(0), position: {…}, objectType: 'Mesh', objectName: 'unnamed', …}
+Diagram3D.tsx:2512 🔧 SKIPPING cylinder without nodeId: {hasUserData: true, userDataKeys: Array(0), position: {…}, objectType: 'Mesh', objectName: 'unnamed', …}
+Diagram3D.tsx:2465 🎯 TRACKED ENDPOINT - Found during highlight: {nodeId: 'gateway-metrics_route_request', selectedTraceId: null, fullUserData: '{"nodeId":"gateway-metrics_route_request","isNode"…,"tenant":"api-gateway","originalColor":16281969}', position: {…}}
+Diagram3D.tsx:2125 🎬 Animation running, frame: 60
+Diagram3D.tsx:2396 🎯 Trace highlighting: {selectedTraceId: '0e4d10551c66be21abb473cef2c80d81', edgeCount: 60, sceneObjectKeys: Array(10)}
+Diagram3D.tsx:2404 🎯 Found 3 edges with selected trace 0e4d10551c66be21abb473cef2c80d81:
+Diagram3D.tsx:2406   ↳ Matching edge 0: {source: 'gateway-metrics_proxy_request', target: 'cdn-manager_purge_cache', traceId: '0e4d10551c66be21abb473cef2c80d81'}
+Diagram3D.tsx:2406   ↳ Matching edge 1: {source: 'cdn-manager_purge_cache', target: 'sms-service_render_template', traceId: '0e4d10551c66be21abb473cef2c80d81'}
+Diagram3D.tsx:2406   ↳ Matching edge 2: {source: 'sms-service_render_template', target: 'supplier-api_sync_suppliers', traceId: '0e4d10551c66be21abb473cef2c80d81'}
+Diagram3D.tsx:2421 🎯 Required nodes for highlighting: (4) ['gateway-metrics_proxy_request', 'cdn-manager_purge_cache', 'sms-service_render_template', 'supplier-api_sync_suppliers']
+Diagram3D.tsx:2427   📍 Node gateway-metrics_proxy_request: {x3d: -277.665631459995, y3d: -90, z3d: -456.42738422007744, service: 'gateway-metrics', tenant: 'api-gateway'}
+Diagram3D.tsx:2427   📍 Node cdn-manager_purge_cache: {x3d: 229.66563145999496, y3d: -30, z3d: -308.69857443566525, service: 'cdn-manager', tenant: 'content-management'}
+Diagram3D.tsx:2427   📍 Node sms-service_render_template: {x3d: -140, y3d: -30, z3d: 60, service: 'sms-service', tenant: 'notification-system'}
+Diagram3D.tsx:2442 🔧 DEBUG: Combined traverse - rebuilding userData AND highlighting
+Diagram3D.tsx:2512 🔧 SKIPPING cylinder without nodeId: {hasUserData: true, userDataKeys: Array(0), position: {…}, objectType: 'Mesh', objectName: 'unnamed', …}
+Diagram3D.tsx:2512 🔧 SKIPPING cylinder without nodeId: {hasUserData: true, userDataKeys: Array(0), position: {…}, objectType: 'Mesh', objectName: 'unnamed', …}
+Diagram3D.tsx:2465 🎯 TRACKED ENDPOINT - Found during highlight: {nodeId: 'gateway-metrics_route_request', selectedTraceId: '0e4d10551c66be21abb473cef2c80d81', fullUserData: '{"nodeId":"gateway-metrics_route_request","isNode"…,"tenant":"api-gateway","originalColor":16281969}', position: {…}}
+Diagram3D.tsx:2839 🔥 Highlighting trace: 0e4d10551c66be21abb473cef2c80d81 {cylinderCount: 125, arrowCount: 120}
+Diagram3D.tsx:2396 🎯 Trace highlighting: {selectedTraceId: null, edgeCount: 60, sceneObjectKeys: Array(10)}
+Diagram3D.tsx:2404 🎯 Found 0 edges with selected trace null:
+Diagram3D.tsx:2421 🎯 Required nodes for highlighting: []
+Diagram3D.tsx:2442 🔧 DEBUG: Combined traverse - rebuilding userData AND highlighting
+Diagram3D.tsx:2512 🔧 SKIPPING cylinder without nodeId: {hasUserData: true, userDataKeys: Array(0), position: {…}, objectType: 'Mesh', objectName: 'unnamed', …}
+Diagram3D.tsx:2512 🔧 SKIPPING cylinder without nodeId: {hasUserData: true, userDataKeys: Array(0), position: {…}, objectType: 'Mesh', objectName: 'unnamed', …}
+Diagram3D.tsx:2465 🎯 TRACKED ENDPOINT - Found during highlight: {nodeId: 'gateway-metrics_route_request', selectedTraceId: null, fullUserData: '{"nodeId":"gateway-metrics_route_request","isNode"…,"tenant":"api-gateway","originalColor":16281969}', position: {…}}
+Diagram3D.tsx:2125 🎬 Animation running, frame: 120
